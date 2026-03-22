@@ -1,0 +1,9 @@
+agents/
+node_modules/
+logs/
+memory/
+venv/
+
+.env
+openclaw.json
+openclaw.json.*
