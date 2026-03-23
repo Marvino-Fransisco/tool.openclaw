@@ -2,17 +2,20 @@ import axios from 'axios';
 import * as dotenv from 'dotenv';
 import * as fs from 'fs';
 import * as path from 'path';
+import logger from './logger';
 
 dotenv.config();
 
-const FRED_API_BASE = 'https://api.stlouisfed.org/fred/series/observations';
-const API_KEY = process.env.FRED_API_KEY;
+const SCRIPT_NAME = 'Economic Indicators Fetcher';
+const DAYS_LOOKBACK = 90;
 
-if (!API_KEY) {
-  console.error('Error: FRED_API_KEY not found in environment variables');
-  console.error('Please set FRED_API_KEY in your .env file or export it');
-  process.exit(1);
+function getDate90DaysAgo(): string {
+  const date = new Date();
+  date.setDate(date.getDate() - DAYS_LOOKBACK);
+  return date.toISOString().split('T')[0];
 }
+const FRED_API_BASE = 'https://api.stlouisfed.org/fred/series/observations';
+const FRED_API_KEY = process.env.FRED_API_KEY;
 
 interface SeriesConfig {
   id: string;
@@ -53,23 +56,29 @@ const ECONOMIC_INDICATORS: SeriesConfig[] = [
 ];
 
 async function fetchSeriesObservations(seriesId: string): Promise<{ observations: Observation[]; info: { units: string; frequency: string } }> {
+  logger.functionCall('fetchSeriesObservations', seriesId);
+  
   const url = `${FRED_API_BASE}`;
   const params = {
     series_id: seriesId,
-    api_key: API_KEY,
+    api_key: FRED_API_KEY,
     file_type: 'json',
-    observation_start: '2000-01-01',
+    observation_start: getDate90DaysAgo(),
     sort_order: 'desc',
     limit: 1000,
   };
 
   try {
+    logger.apiRequest(`${FRED_API_BASE}?series_id=${seriesId}`);
     const response = await axios.get(url, { params });
     
     const observations: Observation[] = response.data.observations.map((obs: any) => ({
       date: obs.date,
       value: obs.value,
     }));
+
+    logger.apiResponse(`${FRED_API_BASE}?series_id=${seriesId}`, '200 OK');
+    logger.dataFetched(seriesId, observations.length);
 
     return {
       observations,
@@ -79,24 +88,24 @@ async function fetchSeriesObservations(seriesId: string): Promise<{ observations
       },
     };
   } catch (error: any) {
-    if (error.response) {
-      console.error(`Error fetching ${seriesId}: ${error.response.status} - ${error.response.data?.error_message || error.message}`);
-    } else {
-      console.error(`Error fetching ${seriesId}: ${error.message}`);
-    }
+    const errorMsg = error.response 
+      ? `${error.response.status} - ${error.response.data?.error_message || error.message}`
+      : error.message;
+    logger.error('FETCH_ERROR', `Error fetching ${seriesId}: ${errorMsg}`);
     throw error;
   }
 }
 
 async function fetchAllIndicators(): Promise<CombinedOutput> {
+  logger.functionCall('fetchAllIndicators');
+  logger.info('BATCH_START', `Fetching ${ECONOMIC_INDICATORS.length} economic indicators from FRED`);
+  
   const results: Record<string, SeriesData> = {};
   let successCount = 0;
   let failCount = 0;
 
-  console.log(`Fetching ${ECONOMIC_INDICATORS.length} economic indicators from FRED...\n`);
-
   for (const indicator of ECONOMIC_INDICATORS) {
-    console.log(`Fetching ${indicator.id} (${indicator.category})...`);
+    logger.info('SERIES_START', `Fetching ${indicator.id} (${indicator.category})`);
     
     try {
       const { observations, info } = await fetchSeriesObservations(indicator.id);
@@ -110,15 +119,14 @@ async function fetchAllIndicators(): Promise<CombinedOutput> {
         observations,
       };
       
-      console.log(`  ✓ ${indicator.id}: ${observations.length} observations`);
       successCount++;
     } catch (error) {
-      console.log(`  ✗ ${indicator.id}: Failed to fetch`);
+      logger.warn('SERIES_SKIP', `${indicator.id}: Failed to fetch`);
       failCount++;
     }
   }
 
-  console.log(`\nSummary: ${successCount} succeeded, ${failCount} failed`);
+  logger.info('BATCH_SUMMARY', `Summary: ${successCount} succeeded, ${failCount} failed`);
 
   return {
     fetchedAt: new Date().toISOString(),
@@ -128,35 +136,41 @@ async function fetchAllIndicators(): Promise<CombinedOutput> {
 }
 
 function saveOutput(data: CombinedOutput): string {
+  logger.functionCall('saveOutput');
+  
   const outputDir = path.join(process.cwd(), '../shared/data/raw');
   
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
+    logger.info('DIR_CREATED', outputDir);
   }
 
-  const dateStr = new Date().toISOString().split('T')[0];
-  const filename = `economic-indicators-${dateStr}.json`;
+  const filename = 'economic-indicators.json';
   const filepath = path.join(outputDir, filename);
 
   fs.writeFileSync(filepath, JSON.stringify(data, null, 2));
+  logger.dataSaved(filepath);
   
   return filepath;
 }
 
-async function main(): Promise<void> {
-  console.log('=== FRED Economic Data Scraper ===\n');
+export async function main(): Promise<void> {
+  logger.start(SCRIPT_NAME);
+  
+  if (!FRED_API_KEY) {
+    logger.error('CONFIG_ERROR', 'FRED_API_KEY not found in environment variables');
+    process.exit(1);
+  }
   
   try {
     const data = await fetchAllIndicators();
     const outputPath = saveOutput(data);
     
-    console.log(`\n✓ Data saved to: ${outputPath}`);
-    console.log(`  Total series: ${data.totalSeries}`);
-    console.log(`  Fetched at: ${data.fetchedAt}`);
-  } catch (error) {
-    console.error('Fatal error:', error);
+    logger.info('COMPLETE', `Total series: ${data.totalSeries}`);
+    logger.end(SCRIPT_NAME, true);
+  } catch (error: any) {
+    logger.error('FATAL_ERROR', error.message);
+    logger.end(SCRIPT_NAME, false);
     process.exit(1);
   }
 }
-
-main();

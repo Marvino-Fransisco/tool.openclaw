@@ -1,6 +1,7 @@
 import * as fs from 'fs'
 import * as path from 'path'
 import { fileURLToPath } from 'url'
+import { logger } from './logger'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -168,183 +169,27 @@ function getFullPeriod(observations: ValidObservation[]): ValidObservation[] {
   return observations
 }
 
-function generateLayer1(indicator: Indicator, observations: ValidObservation[]): string {
-  if (observations.length < 2) return '### Layer 1: 30-Year Structural View\n\nInsufficient data for long-term analysis.\n'
+function generateIndicatorSection(indicator: Indicator, observations: ValidObservation[]): string {
+  if (observations.length < 2) return ''
   
   const first = observations[0]
   const last = observations[observations.length - 1]
   const years = (last.date.getTime() - first.date.getTime()) / (1000 * 60 * 60 * 24 * 365.25)
   const totalChange = (last.value - first.value) / Math.abs(first.value)
   const cagr = calculateCAGR(first.value, last.value, years)
-  
-  const decades: { period: string; start: number; end: number; change: number; cagr: number }[] = []
-  
-  const periodStart = new Date(first.date)
-  let periodEnd = new Date(periodStart)
-  periodEnd.setFullYear(periodEnd.getFullYear() + 10)
-  
-  while (periodStart < last.date) {
-    const periodObs = observations.filter(obs => 
-      obs.date >= periodStart && obs.date <= periodEnd && obs.date <= last.date
-    )
-    
-    if (periodObs.length >= 2) {
-      const pStart = periodObs[0]
-      const pEnd = periodObs[periodObs.length - 1]
-      const pYears = (pEnd.date.getTime() - pStart.date.getTime()) / (1000 * 60 * 60 * 24 * 365.25)
-      
-      decades.push({
-        period: `${pStart.date.getFullYear()}-${pEnd.date.getFullYear()}`,
-        start: pStart.value,
-        end: pEnd.value,
-        change: (pEnd.value - pStart.value) / Math.abs(pStart.value),
-        cagr: calculateCAGR(pStart.value, pEnd.value, pYears)
-      })
-    }
-    
-    periodStart.setFullYear(periodStart.getFullYear() + 10)
-    periodEnd.setFullYear(periodEnd.getFullYear() + 10)
-  }
-  
-  let md = `### Layer 1: ${Math.round(years)}-Year Structural View (${first.date.getFullYear()}-${last.date.getFullYear()})\n\n`
-  md += `- **Starting Value:** ${formatNumber(first.value)} (${formatDateShort(first.date)})\n`
-  md += `- **Current Value:** ${formatNumber(last.value)} (${formatDateShort(last.date)})\n`
-  md += `- **Total Change:** ${formatPercent(totalChange)}\n`
-  md += `- **CAGR:** ${formatPercent(cagr)}/year\n\n`
-  
-  if (decades.length > 0) {
-    md += '| Period | Start | End | Total Change | CAGR |\n'
-    md += '|--------|-------|-----|--------------|------|\n'
-    for (const d of decades) {
-      md += `| ${d.period} | ${formatNumber(d.start)} | ${formatNumber(d.end)} | ${formatPercent(d.change)} | ${formatPercent(d.cagr)}/yr |\n`
-    }
-    md += '\n'
-  }
-  
-  return md
-}
-
-function generateLayer2(indicator: Indicator, observations: ValidObservation[]): string {
-  if (observations.length < 2) return '### Layer 2: 5-Year Cyclical View\n\nInsufficient data for 5-year analysis.\n'
-  
-  const first = observations[0]
-  const last = observations[observations.length - 1]
-  const years = (last.date.getTime() - first.date.getTime()) / (1000 * 60 * 60 * 24 * 365.25)
-  const totalChange = (last.value - first.value) / Math.abs(first.value)
-  const avgAnnualRate = years > 0 ? totalChange / years : 0
-  
-  const momChanges: number[] = []
-  for (let i = 1; i < observations.length; i++) {
-    momChanges.push(calculateMoM(observations[i].value, observations[i - 1].value))
-  }
-  const volatility = calculateVolatility(momChanges)
-  
   const values = observations.map(o => o.value)
   const peak = Math.max(...values)
   const trough = Math.min(...values)
   const peakObs = observations.find(o => o.value === peak)
   const troughObs = observations.find(o => o.value === trough)
   
-  const yearlyData: { year: number; avg: number; yoy: number }[] = []
-  const yearMap = new Map<number, number[]>()
-  
-  for (const obs of observations) {
-    const year = obs.date.getFullYear()
-    if (!yearMap.has(year)) yearMap.set(year, [])
-    yearMap.get(year)!.push(obs.value)
-  }
-  
-  const sortedYears = Array.from(yearMap.keys()).sort()
-  let prevAvg: number | null = null
-  
-  for (const year of sortedYears) {
-    const values = yearMap.get(year)!
-    const avg = values.reduce((a, b) => a + b, 0) / values.length
-    const yoy = prevAvg !== null ? (avg - prevAvg) / Math.abs(prevAvg) : 0
-    yearlyData.push({ year, avg, yoy })
-    prevAvg = avg
-  }
-  
-  let md = `### Layer 2: 5-Year Cyclical View (${first.date.getFullYear()}-${last.date.getFullYear()})\n\n`
+  let md = `## ${indicator.series_id} - ${indicator.series_name}\n\n`
   md += `- **Starting Value:** ${formatNumber(first.value)} (${formatDateShort(first.date)})\n`
   md += `- **Current Value:** ${formatNumber(last.value)} (${formatDateShort(last.date)})\n`
   md += `- **Total Change:** ${formatPercent(totalChange)}\n`
-  md += `- **Average Annual Rate:** ${formatPercent(avgAnnualRate)}/year\n`
-  md += `- **Volatility (σ):** ${formatPercent(volatility)}\n`
+  md += `- **CAGR:** ${formatPercent(cagr)}/year\n`
   md += `- **Peak:** ${formatNumber(peak)} (${peakObs ? formatDateShort(peakObs.date) : 'N/A'})\n`
   md += `- **Trough:** ${formatNumber(trough)} (${troughObs ? formatDateShort(troughObs.date) : 'N/A'})\n\n`
-  
-  if (yearlyData.length > 0) {
-    md += '| Year | Average Value | YoY Change |\n'
-    md += '|------|---------------|------------|\n'
-    for (const y of yearlyData) {
-      const yoyStr = y.yoy === 0 ? '--' : formatPercent(y.yoy)
-      md += `| ${y.year} | ${formatNumber(y.avg)} | ${yoyStr} |\n`
-    }
-    md += '\n'
-  }
-  
-  return md
-}
-
-function generateLayer3(indicator: Indicator, observations: ValidObservation[]): string {
-  if (observations.length < 2) return '### Layer 3: 12-Month Current View\n\nInsufficient data for 12-month analysis.\n'
-  
-  const momChanges: number[] = []
-  const tableData: { date: Date; value: number; mom: number; ma3: number; yoy: number }[] = []
-  
-  for (let i = 0; i < observations.length; i++) {
-    const current = observations[i]
-    const mom = i > 0 ? calculateMoM(current.value, observations[i - 1].value) : 0
-    
-    const yearAgoObs = observations.find(obs => 
-      obs.date.getMonth() === current.date.getMonth() &&
-      obs.date.getFullYear() === current.date.getFullYear() - 1
-    )
-    const yoy = yearAgoObs ? calculateYoY(current.value, yearAgoObs.value) : 0
-    
-    const valuesUpToNow = observations.slice(0, i + 1).map(o => o.value)
-    const ma3 = calculate3MMA(valuesUpToNow)
-    
-    tableData.push({
-      date: current.date,
-      value: current.value,
-      mom,
-      ma3,
-      yoy
-    })
-    
-    if (mom !== 0) momChanges.push(mom)
-  }
-  
-  const trend = assessTrend(momChanges)
-  
-  let md = `### Layer 3: 12-Month Current View (${formatDateShort(observations[0].date)} - ${formatDateShort(observations[observations.length - 1].date)})\n\n`
-  md += `**Trend Assessment:** ${trend}\n\n`
-  md += '| Date | Value | MoM | 3M MA | YoY |\n'
-  md += '|------|-------|-----|-------|-----|\n'
-  
-  for (const row of tableData) {
-    md += `| ${formatDateShort(row.date)} | ${formatNumber(row.value)} | ${formatPercent(row.mom)} | ${formatNumber(row.ma3)} | ${formatPercent(row.yoy)} |\n`
-  }
-  md += '\n'
-  
-  return md
-}
-
-function generateIndicatorSection(indicator: Indicator, observations: ValidObservation[]): string {
-  const fullPeriod = getFullPeriod(observations)
-  const last5Years = getLast5Years(observations)
-  const last12Months = getLast12Months(observations)
-  
-  let md = `## ${indicator.series_id} - ${indicator.series_name}\n\n`
-  md += `**Category:** ${indicator.category} | **Frequency:** ${indicator.frequency}\n\n`
-  
-  md += generateLayer1(indicator, fullPeriod)
-  md += '---\n\n'
-  md += generateLayer2(indicator, last5Years.length >= 2 ? last5Years : fullPeriod)
-  md += '---\n\n'
-  md += generateLayer3(indicator, last12Months.length >= 2 ? last12Months : observations.slice(-12))
   md += '---\n\n'
   
   return md
@@ -389,20 +234,6 @@ function generateSummaryDashboard(indicators: Record<string, Indicator>, allObse
   return md
 }
 
-function findMissingData(indicators: Record<string, Indicator>): string[] {
-  const missing: string[] = []
-  
-  for (const [seriesId, indicator] of Object.entries(indicators)) {
-    for (const obs of indicator.observations) {
-      if (obs.value === '.' || obs.value === null || obs.value === undefined) {
-        missing.push(`${seriesId}: ${obs.date}`)
-      }
-    }
-  }
-  
-  return missing
-}
-
 function generateMarkdown(data: InputJSON): string {
   const allObservations = new Map<string, ValidObservation[]>()
   
@@ -410,48 +241,8 @@ function generateMarkdown(data: InputJSON): string {
     allObservations.set(seriesId, filterValidObservations(indicator.observations))
   }
   
-  const latestDate = Array.from(allObservations.values())
-    .flatMap(obs => obs.map(o => o.date))
-    .sort((a, b) => b.getTime() - a.getTime())[0]
-  
-  const earliestDate = Array.from(allObservations.values())
-    .flatMap(obs => obs.map(o => o.date))
-    .sort((a, b) => a.getTime() - b.getTime())[0]
-  
-  const dataYears = (latestDate.getTime() - earliestDate.getTime()) / (1000 * 60 * 60 * 24 * 365.25)
-  
-  let md = `# Economic Indicators Report\n\n`
-  md += `**Report Date:** ${new Date().toISOString().split('T')[0]}\n`
-  md += `**Data Fetched At:** ${data.fetchedAt}\n`
-  md += `**Data Coverage:** ${earliestDate.getFullYear()} - ${latestDate.getFullYear()} (${Math.round(dataYears)} years)\n`
-  md += `**Indicators:** ${data.totalSeries} series\n\n`
-  md += '---\n\n'
-  
+  let md = `# Economic Indicators\n\n`
   md += generateSummaryDashboard(data.indicators, allObservations)
-  
-  for (const category of CATEGORY_CONFIG) {
-    md += `# ${category.name}\n\n`
-    
-    for (const seriesId of category.indicators) {
-      const indicator = data.indicators[seriesId]
-      const observations = allObservations.get(seriesId)
-      
-      if (indicator && observations && observations.length > 0) {
-        md += generateIndicatorSection(indicator, observations)
-      }
-    }
-  }
-  
-  const missingData = findMissingData(data.indicators)
-  if (missingData.length > 0) {
-    md += '# Data Notes\n\n'
-    md += '## Missing Data\n\n'
-    md += 'The following periods have missing or unavailable data:\n\n'
-    for (const m of missingData) {
-      md += `- ${m}\n`
-    }
-    md += '\n'
-  }
   
   return md
 }
@@ -475,7 +266,7 @@ export function createEconomicIndicatorMD(inputPath: string): string {
   
   fs.writeFileSync(outputPath, markdown, 'utf-8')
   
-  console.log(`Markdown report generated: ${outputPath}`)
+  logger.success('GENERATE', `Economic Indicators report saved to ${outputPath}`)
   return outputPath
 }
 
@@ -494,21 +285,6 @@ export function createEconomicIndicatorMDFromString(jsonString: string, outputDi
   
   fs.writeFileSync(outputPath, markdown, 'utf-8')
   
-  console.log(`Markdown report generated: ${outputPath}`)
+  logger.success('GENERATE', `Economic Indicators report saved to ${outputPath}`)
   return outputPath
-}
-
-const args = process.argv.slice(2)
-
-if (args.length === 0) {
-  const defaultPath = path.join(__dirname, 'economic-indicators-2026-03-23.json')
-  if (fs.existsSync(defaultPath)) {
-    createEconomicIndicatorMD(defaultPath)
-  } else {
-    console.error('Usage: npx tsx create-economic-indicator-md.ts <input-json-path>')
-    console.error('       or ensure economic-indicators-YYYY-MM-DD.json exists in the same directory')
-    process.exit(1)
-  }
-} else {
-  createEconomicIndicatorMD(args[0])
 }
