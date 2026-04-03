@@ -24,7 +24,7 @@ _This agent serves users interested in macroeconomic analysis._
 ## Data Workflow
 
 ```
-INPUT:  /home/node/.openclaw/shared/data/processed/daily_brief.md
+INPUT:  /home/node/.openclaw/shared/data/processed/daily-brief.md
 OUTPUT: /home/node/.openclaw/shared/analysis/macro-fundamentals/inflation-growth-analysis.md
 ```
 

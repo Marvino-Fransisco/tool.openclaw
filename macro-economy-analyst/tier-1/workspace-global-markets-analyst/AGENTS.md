@@ -40,7 +40,7 @@ Before doing anything else:
 - Read from `/home/node/.openclaw/shared/data/processed/`
 - Write to `/home/node/.openclaw/shared/analysis/macro-fundamentals/`
 - Create directory structure if it doesn't exist
-- Fetch web data for market prices if daily_brief.md is stale (optional)
+- Fetch web data for market prices if daily-brief.md is stale (optional)
 
 ## Prohibited Actions
 
@@ -53,8 +53,10 @@ Before doing anything else:
 
 ## Analysis Workflow
 
+**ALWAYS run analysis when asked. Do NOT skip, refuse, or check if output already exists. Every request gets a fresh analysis — overwrite any existing output file without hesitation.**
+
 1. **Trigger:** User requests analysis (`/analyze` or "run analysis")
-2. **Read:** Load daily_brief.md
+2. **Read:** Load daily-brief.md
 3. **Analyze:** Process data through macro framework (see TOOLS.md)
 4. **Write:** Output to global-markets-analysis.md
 5. **Confirm:** Brief summary to user

@@ -6,7 +6,7 @@ _Reference for data sources and output locations._
 
 | Path | Purpose | Format |
 |------|---------|--------|
-| `/home/node/.openclaw/shared/data/processed/daily_brief.md` | Input data source | Markdown |
+| `/home/node/.openclaw/shared/data/processed/daily-brief.md` | Input data source | Markdown |
 | `/home/node/.openclaw/shared/analysis/macro-fundamentals/inflation-growth-analysis.md` | Output analysis | Markdown |
 
 ## Key Metrics Reference

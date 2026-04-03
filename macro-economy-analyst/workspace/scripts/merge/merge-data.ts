@@ -31,7 +31,7 @@ function mergeMarkdownFiles(): void {
     }
     
     const files = fs.readdirSync(INPUT_DIR)
-      .filter(file => file.endsWith('.md') && file !== 'daily_brief.md')
+      .filter(file => file.endsWith('.md') && file !== 'daily-brief.md')
       .sort();
     
     log(`Found ${files.length} markdown files to merge`);

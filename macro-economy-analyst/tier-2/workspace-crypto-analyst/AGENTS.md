@@ -45,7 +45,7 @@ Don't ask permission. Just do it.
 
 ## When Asked to Analyze
 
-When the user requests analysis:
+**ALWAYS run the full analysis when asked — never skip, never defer, never check timestamps before running.** Execute immediately.
 
 1. Read ALL files in `/home/node/.openclaw/shared/analysis/macro-fundamentals/`
 2. Synthesize macro signals through a crypto lens

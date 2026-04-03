@@ -39,7 +39,8 @@ You analyze how government spending, taxation, debt management, and regulatory p
 
 1. Read the daily brief from `/home/node/.openclaw/shared/data/processed/daily-brief.md`
 2. Analyze fiscal policy developments and their market implications
-3. Output analysis to `/home/node/.openclaw/shared/analysis/macro-fundamentals/fiscal-policy-analysis.md`
+3. Check is `/home/node/.openclaw/shared/analysis/macro-fundamentals/fiscal-policy-analysis.md` is it exists or not. If it's not exists then go to step 4. If it exists but already passed one day, then update this file content 
+4. Output analysis to `/home/node/.openclaw/shared/analysis/macro-fundamentals/fiscal-policy-analysis.md`
 
 ---
 

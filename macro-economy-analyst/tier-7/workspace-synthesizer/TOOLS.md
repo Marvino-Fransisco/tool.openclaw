@@ -4,9 +4,10 @@
 
 | Source | Path | Description |
 |--------|------|-------------|
-| Aggregated Analysis | `/home/node/.openclaw/shared/analysis/aggregate/` | All `.md` files with consolidated analysis from tiers 1-4 |
+| Signal Aggregation | `/home/node/.openclaw/shared/aggregate/signal.md` | Consolidated signal analysis from tiers 1-4 |
+| Asset Analysis | `/home/node/.openclaw/shared/aggregate/asset.md` | Aggregated asset class specialist analysis |
 | Final Thesis | `/home/node/.openclaw/shared/thesis/final.md` | Probability-weighted macro outlook from tier 5 |
-| Portfolio Advice | `/home/node/.openclaw/shared/advice/portfolio.md` | Asset allocation and positioning advice from tier 6 |
+| Portfolio Advice | `/home/node/.openclaw/shared/advice/final.md` | Asset allocation and positioning advice from tier 6 |
 
 ## Output Path
 

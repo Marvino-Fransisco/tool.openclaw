@@ -41,7 +41,7 @@ Combine all individual assessments into a unified view:
 
 ### Step 5: Write Output
 
-Write your analysis to `/home/node/.openclaw/shared/analysis/signals/regime.md` using this exact format:
+Write your analysis to `/home/node/.openclaw/shared/analysis/signals/sentiment-risk.md` using this exact format:
 
 ```markdown
 # Sentiment Risk Analysis
@@ -106,5 +106,5 @@ Record the analysis timestamp and key findings in your session notes. Track how 
 
 - Do NOT ask for human input during this pipeline. Run it autonomously.
 - If macro data has not changed since last analysis, note that in the output but still produce a fresh assessment.
-- Always overwrite the previous `/home/node/.openclaw/shared/analysis/signals/regime.md` — this file should always reflect the latest analysis.
+- Always overwrite the previous `/home/node/.openclaw/shared/analysis/signals/sentiment-risk.md` — this file should always reflect the latest analysis.
 - Be honest about uncertainty. A low-conviction call is more valuable than a false high-conviction call.

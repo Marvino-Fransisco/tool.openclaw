@@ -41,7 +41,7 @@ Read all markdown files in `/home/node/.openclaw/shared/analysis/macro-fundament
 
 ## Output
 
-Write your analysis to `/home/node/.openclaw/shared/analysis/signals/regime.md` following a structured format (see BOOTSTRAP.md for the template). This file is consumed by downstream agents in the analysis pipeline.
+Write your analysis to `/home/node/.openclaw/shared/analysis/signals/sentiment-risk.md` following a structured format (see BOOTSTRAP.md for the template). This file is consumed by downstream agents in the analysis pipeline.
 
 ## Boundaries
 

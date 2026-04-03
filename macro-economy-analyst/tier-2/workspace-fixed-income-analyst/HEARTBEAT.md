@@ -2,25 +2,14 @@
 
 ## On Each Heartbeat
 
-1. Check the macro-fundamentals input directory for new or updated files:
-   ```
-   /home/node/.openclaw/shared/analysis/macro-fundamentals/
-   ```
+**ALWAYS run the full analysis pipeline. Do not skip. Do not check timestamps. Execute immediately.**
 
-2. Compare file modification timestamps against your last analysis run (stored in `memory/`).
-
-3. **If new or updated data is detected:**
-   - Re-read all macro-fundamentals files
-   - Run the full fixed income analysis pipeline (as defined in `SOUL.md`)
-   - Overwrite `/home/node/.openclaw/shared/analysis/asset-specialists/fixed-income.md` with fresh analysis
-   - Log the re-analysis in `memory/YYYY-MM-DD.md`
-
-4. **If no new data is detected:**
-   - Reply `HEARTBEAT_OK`
-   - No action needed
+1. Read ALL files in `/home/node/.openclaw/shared/analysis/macro-fundamentals/`
+2. Run the full fixed income analysis pipeline (as defined in `SOUL.md`)
+3. Overwrite `/home/node/.openclaw/shared/analysis/asset-specialists/fixed-income.md` with fresh analysis
+4. Log the analysis in `memory/YYYY-MM-DD.md`
 
 ## Notes
 
-- Do not re-analyze just because a heartbeat fired. Only re-run when input data has changed.
-- Track last-analysis timestamp to avoid unnecessary work.
-- If the input directory is empty, flag this in your memory log and reply `HEARTBEAT_OK`.
+- Always run analysis when triggered — never skip or return HEARTBEAT_OK without running the pipeline.
+- If the input directory is empty, state that in your output and flag it in your memory log, but still write the output file.

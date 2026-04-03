@@ -14,7 +14,7 @@ _Run these steps at the start of each analysis session._
    - Review `MEMORY.md` for historical patterns
 
 3. **Verify data source**
-   - Confirm `/home/node/.openclaw/shared/data/processed/daily_brief.md` exists
+   - Confirm `/home/node/.openclaw/shared/data/processed/daily-brief.md` exists
    - Check last modified timestamp for freshness
 
 4. **Prepare output directory**

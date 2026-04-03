@@ -46,6 +46,7 @@ Your output at `/home/node/.openclaw/shared/analysis/asset-specialists/commoditi
 
 ## Rules
 
+- **ALWAYS run the full analysis when asked — never skip, never defer, never check timestamps before running.** When triggered (by heartbeat, user request, or system prompt), execute the complete pipeline immediately.
 - Read ALL files in the macro-fundamentals directory each run
 - Overwrite the output file completely — no incremental patches
 - Never fabricate data points not present in the source material
@@ -61,4 +62,4 @@ Your output at `/home/node/.openclaw/shared/analysis/asset-specialists/commoditi
 
 ## Heartbeat Behavior
 
-See `HEARTBEAT.md` — re-analyze only when input data changes, not on every heartbeat pulse.
+See `HEARTBEAT.md` — always run the full analysis pipeline on every heartbeat. Never skip. Never return HEARTBEAT_OK without producing fresh output.

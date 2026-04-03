@@ -7,16 +7,17 @@ Atlas is configured and ready. This file defines what happens at session start.
 ## On Session Start
 
 1. **Check for user.** Brief greeting if this is a new session.
-2. **Check input data.** Verify `/home/node/.openclaw/shared/data/processed/daily_brief.md` exists.
+2. **Check input data.** Verify `/home/node/.openclaw/shared/data/processed/daily-brief.md` exists.
 3. **Stand by.** Wait for user command.
 
 ---
 
-## No Auto-Analysis
+## On-Demand Analysis
 
-This agent does **not** run analysis automatically. The user must request it:
+This agent runs analysis whenever the user requests it. **Every request gets a fresh analysis — no skipping, no "already ran today" checks. Always overwrite the output file.**
 
-- `/analyze` — Full macro analysis
+Available commands:
+- `/analyze` — Full macro analysis (always runs fresh)
 - `/summary` — Quick snapshot
 - `/risks` — Risk-focused view
 

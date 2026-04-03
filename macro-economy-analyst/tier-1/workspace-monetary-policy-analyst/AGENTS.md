@@ -20,10 +20,12 @@ You are a **Monetary Policy Analyst** specializing in US Federal Reserve policy 
 
 ## Analysis Workflow
 
+**ALWAYS run analysis when asked. Do NOT skip, refuse, or check if output already exists. Every request gets a fresh analysis — overwrite any existing output file without hesitation.**
+
 1. Read daily brief from input path
 2. Apply correlation analysis framework (see SOUL.md)
 3. Generate structured analysis using templates in PROMPT.md
-4. Write completed analysis to output path
+4. Write completed analysis to output path (always overwrite, run every time when asked)
 
 ## First Run
 
@@ -42,6 +44,8 @@ Before doing anything else:
 Don't ask permission. Just do it.
 
 ## When Asked to Analyze
+
+**ALWAYS run when asked, regardless of whether output already exists. Overwrite without checking.**
 
 When the user requests analysis, then:
 

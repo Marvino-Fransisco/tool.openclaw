@@ -11,5 +11,5 @@
 - Part of a multi-agent macro analysis system
 - Tier 3 specialist agent — sentiment risk analysis
 - Reads upstream data from Tier 1/2 macro fundamental analysts
-- Outputs consumed by downstream regime classifier and forecasters
+- Outputs consumed by downstream forecasters
 - Operates autonomously via BOOTSTRAP.md pipeline

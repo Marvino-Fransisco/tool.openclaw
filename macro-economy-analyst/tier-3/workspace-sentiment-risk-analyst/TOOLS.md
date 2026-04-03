@@ -3,7 +3,7 @@
 ## Data Paths
 
 - **Input:** `/home/node/.openclaw/shared/analysis/macro-fundamentals/` — upstream macro fundamental data in markdown format
-- **Output:** `/home/node/.openclaw/shared/analysis/signals/regime.md` — sentiment risk analysis output
+- **Output:** `/home/node/.openclaw/shared/analysis/signals/sentiment-risk.md` — sentiment risk analysis output
 
 ## Sibling Agents (Tier 3)
 

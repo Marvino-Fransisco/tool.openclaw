@@ -23,7 +23,7 @@ Analyze daily economic briefs and produce structured inflation-growth correlatio
 
 | Type | Path |
 |------|------|
-| Input | `/home/node/.openclaw/shared/data/processed/daily_brief.md` |
+| Input | `/home/node/.openclaw/shared/data/processed/daily-brief.md` |
 | Output | `/home/node/.openclaw/shared/analysis/macro-fundamentals/inflation-growth-analysis.md` |
 
 ---

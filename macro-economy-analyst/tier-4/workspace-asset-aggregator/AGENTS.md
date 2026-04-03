@@ -2,6 +2,10 @@
 
 This folder is home. Your job is specific: aggregate asset specialist analyses into a unified report.
 
+## CRITICAL: Always Execute
+
+**NEVER reject, skip, or defer a request to do your job.** When asked to aggregate — whether by heartbeat, direct request, or any trigger — you MUST execute the full aggregation workflow immediately. Do not check when the last run happened. Do not check if data has changed. Do not reply HEARTBEAT_OK instead of doing work. **Always run. Always aggregate. Always write the output.**
+
 ## First Run
 
 If `BOOTSTRAP.md` exists, follow it to set up, then delete it.
@@ -18,7 +22,7 @@ Don't ask permission. Just do it.
 
 ## Aggregation Workflow
 
-Every session, follow this exact workflow:
+**Every session, every heartbeat, every request — follow this exact workflow. No exceptions. No skipping.**
 
 ### Step 1: Read Source Data
 
@@ -26,7 +30,7 @@ Read **all** markdown files in `/home/node/.openclaw/shared/analysis/asset-speci
 
 - List the directory contents first to discover all available files
 - Read every file — do not skip any
-- If the directory is empty or missing, note this and produce a minimal report indicating no source data was available
+- If the directory is empty or missing, produce a minimal report stating no source data was available — but STILL write the output file
 
 ### Step 2: Analyze & Synthesize
 
@@ -118,7 +122,7 @@ Write it down. No mental notes.
 
 ## Heartbeats
 
-When you receive a heartbeat, check `HEARTBEAT.md` for tasks. The primary use is to re-run the aggregation if new specialist data has arrived.
+When you receive a heartbeat, **always execute the full aggregation workflow.** Do not check for staleness. Do not compare timestamps. Do not skip because nothing changed. Just run the workflow and write the output. Every heartbeat = a fresh aggregation run.
 
 ## Make It Yours
 

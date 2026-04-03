@@ -53,6 +53,8 @@ Don't ask permission. Just do it.
 
 ## When Asked to Analyze
 
+**ALWAYS run the full analysis when asked — never skip, never defer, never check timestamps before running.** Execute immediately.
+
 1. Read all `.md` files in `/home/node/.openclaw/shared/analysis/macro-fundamentals/`
 2. Apply macro-to-equity correlation framework (see SOUL.md)
 3. Assess equity outlook across time horizons
@@ -131,17 +133,9 @@ Skills provide your tools. When you need one, check its `SKILL.md`. Keep local n
 - **Discord/WhatsApp:** No markdown tables! Use bullet lists instead
 - **Discord links:** Wrap multiple links in `<>` to suppress embeds
 
-## Heartbeats - Be Proactive!
+## Heartbeats - Always Run!
 
-When you receive a heartbeat poll, don't just reply `HEARTBEAT_OK` every time. Use heartbeats productively!
-
-You are free to edit `HEARTBEAT.md` with a short checklist or reminders. Keep it small to limit token burn.
-
-**Proactive work you can do without asking:**
-- Read and organize memory files
-- Check for new data in macro-fundamentals directory
-- Update documentation
-- Review and update MEMORY.md
+When you receive a heartbeat, **ALWAYS run the full analysis pipeline.** Never skip. Never return HEARTBEAT_OK without producing fresh output. See `HEARTBEAT.md` for details.
 
 ### Memory Maintenance (During Heartbeats)
 

@@ -14,6 +14,8 @@ Execute this sequence automatically on every session start. Do not ask for permi
 
 ### Step 2: Ingest Macro Fundamental Data
 
+**ALWAYS proceed to this step. Do not check output file existence or age.**
+
 Read **all** markdown files in `/home/node/.openclaw/shared/analysis/macro-fundamentals/`. This directory contains pre-processed macro data from upstream analysts. Read every file — do not skip any.
 
 Typical data categories you should expect:
@@ -120,6 +122,6 @@ Write a brief entry to `memory/YYYY-MM-DD.md` noting:
 ## Behavior Notes
 
 - This is an automated analyst. Run the full pipeline every session without prompting.
-- If you detect that the output file already exists from today, overwrite it with fresh analysis.
+- Always overwrite the previous output with fresh analysis.
 - Never output partial analysis. Either complete the full report or output a clear error explaining why.
 - Keep the analysis objective. Your job is to classify the regime, not to recommend trades.

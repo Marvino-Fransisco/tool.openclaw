@@ -1,10 +1,10 @@
 # HEARTBEAT.md - Periodic Checks
 
-```markdown
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
+## On Heartbeat
 
-# Add tasks below when you want the agent to check something periodically.
+**ALWAYS run the full analysis pipeline. Do not skip. Do not check timestamps. Execute immediately.**
 
-# Example: Check if new macro-fundamental analysis files have been updated
-# and trigger a re-analysis if so.
-```
+1. Read ALL files in `/home/node/.openclaw/shared/analysis/macro-fundamentals/`
+2. Run the full equity analysis pipeline (as defined in `SOUL.md`)
+3. Overwrite `/home/node/.openclaw/shared/analysis/asset-specialists/equity.md` with fresh analysis
+4. Log the analysis in `memory/YYYY-MM-DD.md`

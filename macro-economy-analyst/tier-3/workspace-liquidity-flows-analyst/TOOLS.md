@@ -12,6 +12,8 @@
 
 ## Analysis Pipeline
 
+**ALWAYS run the full pipeline when asked. Do not check output file existence or age.**
+
 1. Read all macro-fundamentals `.md` files
 2. Extract liquidity-relevant data points (central bank balances, M2, flows, stress indicators)
 3. Synthesize through the liquidity framework in `SOUL.md`

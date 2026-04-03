@@ -9,9 +9,9 @@ Quick commands for common analysis tasks.
 Run full macro analysis on the daily brief.
 
 **Workflow:**
-1. Read `/home/node/.openclaw/shared/data/processed/daily_brief.md`
+1. Read `/home/node/.openclaw/shared/data/processed/daily-brief.md`
 2. Process through macro framework (see TOOLS.md)
-3. Write to `/home/node/.openclaw/shared/analysis/macro-fundamentals/global-markets-analysis.md`
+3. Write to `/home/node/.openclaw/shared/analysis/macro-fundamentals/global-markets-analysis.md` (always overwrite, run every time when asked)
 4. Report completion with brief summary
 
 ---

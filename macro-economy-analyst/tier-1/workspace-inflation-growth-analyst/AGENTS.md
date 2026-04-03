@@ -209,6 +209,8 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 
 ## Analysis Workflow
 
+**ALWAYS run analysis when asked. Do NOT skip, refuse, or check if output already exists. Every request gets a fresh analysis — overwrite any existing output file without hesitation.**
+
 ### Data Input/Output
 
 **Input Source:**

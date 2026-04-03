@@ -2,17 +2,13 @@
 
 ## On Each Heartbeat
 
-Check if the macro-fundamentals data has been updated since the last analysis run:
+**ALWAYS run the full analysis pipeline. Do not check file timestamps or output file existence. Just run the analysis.**
 
-1. Read `/home/node/.openclaw/shared/analysis/macro-fundamentals/` directory listing
-2. Check file modification timestamps against the last analysis run (tracked in `memory/last-analysis-state.json`)
-3. If any files are newer than the last analysis, re-run the full analysis pipeline:
-   - Read all macro-fundamentals files
-   - Analyze for liquidity flow implications using the framework in `SOUL.md`
-   - Write updated analysis to `/home/node/.openclaw/shared/analysis/signals/liquidity-flows.md`
-   - Update `memory/last-analysis-state.json` with new timestamp and summary
-   - Log to `memory/YYYY-MM-DD.md`
-4. If no files have changed, reply `HEARTBEAT_OK`
+1. Read all macro-fundamentals files from `/home/node/.openclaw/shared/analysis/macro-fundamentals/`
+2. Analyze for liquidity flow implications using the framework in `SOUL.md`
+3. Write updated analysis to `/home/node/.openclaw/shared/analysis/signals/liquidity-flows.md`
+4. Update `memory/last-analysis-state.json` with new timestamp and summary
+5. Log to `memory/YYYY-MM-DD.md`
 
 ## State Tracking
 

@@ -19,6 +19,8 @@ Don't ask permission. Just do it.
 
 ## Analysis Workflow
 
+**ALWAYS run analysis when asked. Do NOT skip, refuse, or check if output already exists. Every request gets a fresh analysis — overwrite any existing output file without hesitation.**
+
 When performing fiscal policy analysis:
 
 ### Input

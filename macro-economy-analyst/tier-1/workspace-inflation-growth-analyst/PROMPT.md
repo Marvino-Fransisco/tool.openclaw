@@ -7,7 +7,7 @@ _Reusable templates for inflation-growth analysis tasks._
 Perform full inflation-growth correlation analysis:
 
 ```
-1. Read /home/node/.openclaw/shared/data/processed/daily_brief.md
+1. Read /home/node/.openclaw/shared/data/processed/daily-brief.md
 2. Extract key inflation metrics (CPI, PCE, Core, PPI)
 3. Identify correlations with:
    - Monetary policy indicators (Fed rates, balance sheet)
@@ -15,7 +15,7 @@ Perform full inflation-growth correlation analysis:
    - Financial markets (yields, equities, sectors)
 4. Assess current inflation regime and trajectory
 5. Flag risk factors and watch items
-6. Write structured analysis to:
+6. Write structured analysis to (always overwrite, run every time when asked):
    /home/node/.openclaw/shared/analysis/macro-fundamentals/inflation-growth-analysis.md
 ```
 

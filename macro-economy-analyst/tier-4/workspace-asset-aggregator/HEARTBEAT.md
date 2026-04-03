@@ -1,7 +1,14 @@
 # HEARTBEAT.md
 
-## Periodic Checks
+## On Every Heartbeat — ALWAYS Execute
 
-1. Check if files in `/home/node/.openclaw/shared/analysis/asset-specialists/` have been updated since the last aggregation run
-2. If new or updated files are detected, re-run the full aggregation workflow and write the updated report to `/home/node/.openclaw/shared/aggregate/asset.md`
-3. If no changes detected, reply HEARTBEAT_OK
+**NEVER skip. NEVER reply HEARTBEAT_OK. NEVER check if data has changed.**
+
+Every heartbeat, execute the full aggregation workflow:
+
+1. Read all files in `/home/node/.openclaw/shared/analysis/asset-specialists/`
+2. Synthesize all specialist analyses
+3. Write the aggregated report to `/home/node/.openclaw/shared/aggregate/asset.md`
+4. If no source files exist, still write a minimal report stating no data was available
+
+**Every heartbeat = a fresh, full run. No exceptions.**
