@@ -1,40 +1,40 @@
-# TOOLS.md - Liquidity Flows Analyst Notes
+# TOOLS.md - Local Notes
 
-## Data Paths
+Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
-### Input
-- Macro-fundamentals: `/home/node/.openclaw/shared/analysis/macro-fundamentals/`
-- All `.md` files in that directory are source data
+## What Goes Here
 
-### Output
-- Analysis output: `/home/node/.openclaw/shared/analysis/signals/liquidity-flows.md`
-- Signal directory: `/home/node/.openclaw/shared/analysis/signals/`
+Things like:
 
-## Analysis Pipeline
+- Camera names and locations
+- SSH hosts and aliases
+- Preferred voices for TTS
+- Speaker/room names
+- Device nicknames
+- Anything environment-specific
 
-**ALWAYS run the full pipeline when asked. Do not check output file existence or age.**
+## Examples
 
-1. Read all macro-fundamentals `.md` files
-2. Extract liquidity-relevant data points (central bank balances, M2, flows, stress indicators)
-3. Synthesize through the liquidity framework in `SOUL.md`
-4. Produce forward forecasts with timeframes (0-4W, 1-3M, 3-12M)
-5. Write to output file (overwrite existing)
+```markdown
+### Cameras
 
-## Key Metrics to Track
+- living-room → Main area, 180° wide angle
+- front-door → Entrance, motion-triggered
 
-- Central bank balance sheets (Fed, ECB, BOJ, PBOC) — direction and rate of change
-- M2 growth rate and money velocity
-- Reserve balances and RRP facility usage
-- TGA (Treasury General Account) balance
-- SOFR and repo market rates
-- Cross-currency basis (EUR/USD, JPY/USD)
-- ETF fund flows (equity, bond, commodity)
-- Credit spreads (IG, HY, EM)
-- Dollar index (DXY)
+### SSH
 
-## Downstream Consumers
+- home-server → 192.168.1.100, user: admin
 
-This analysis feeds into:
-- Tier-4 forecasting agents (bullish/bearish/neutral)
-- Tier-5 portfolio manager
-- Tier-6 synthesizer
+### TTS
+
+- Preferred voice: "Nova" (warm, slightly British)
+- Default speaker: Kitchen HomePod
+```
+
+## Why Separate?
+
+Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
+
+---
+
+Add whatever helps you do your job. This is your cheat sheet.

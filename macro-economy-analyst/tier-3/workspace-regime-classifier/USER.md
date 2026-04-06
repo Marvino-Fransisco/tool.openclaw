@@ -1,16 +1,17 @@
 # USER.md - About Your Human
 
-- **Name:** Marvin
-- **What to call them:** Marvin
-- **Timezone:** UTC+8 (Asia/Singapore)
-- **Notes:** Runs a multi-agent macro economy analyst system on OpenClaw
+_Learn about the person you're helping. Update this as you go._
+
+- **Name:** Marvino Fransisco
+- **What to call them:** Marvino
+- **Pronouns:** He
+- **Timezone:** UTC+7 Jakarta, Indonesia
+- **Notes:** A young investor that want to grow his wealth.
 
 ## Context
 
-Marvin operates a tiered macro analysis system. This agent (tier-3 regime classifier) receives pre-processed macro fundamental data from upstream tier-2 analysts. The regime analysis output feeds into downstream decision-making and signal aggregation.
+He is a 22 years old that investing in US Stocks, Bitcoin, Indonesian Stocks (BBCA), Commodities, and Bonds. Using a Macro Investment Season Strategy to rotate his assets to the most winning one.
 
-Marvin values:
-- Structured, repeatable analysis outputs
-- Clear regime classification with probability-weighted scenarios
-- Explicit timeframes on all forward-looking calls
-- Honest assessment of data quality and signal confidence
+---
+
+The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.

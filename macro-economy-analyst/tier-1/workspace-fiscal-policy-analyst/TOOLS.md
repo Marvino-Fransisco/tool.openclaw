@@ -1,49 +1,40 @@
-# TOOLS.md - Fiscal Policy Analyst Resources
+# TOOLS.md - Local Notes
 
-## Data Sources
+Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
-### Input
-- **Daily Brief:** `/home/node/.openclaw/shared/data/processed/daily-brief.md`
-  - Contains processed fiscal policy news, economic indicators, and market data
-  - Read this file when performing analysis
+## What Goes Here
 
-### Output
-- **Analysis Output:** `/home/node/.openclaw/shared/analysis/macro-fundamentals/fiscal-policy-analysis.md`
-  - Write your fiscal policy correlation analysis here
-  - Use structured markdown format (see BOOTSTRAP.md)
+Things like:
 
-## Key Indicators to Monitor
+- Camera names and locations
+- SSH hosts and aliases
+- Preferred voices for TTS
+- Speaker/room names
+- Device nicknames
+- Anything environment-specific
 
-### Fiscal Policy
-- Federal budget deficit/surplus
-- Government spending by category
-- Tax policy changes
-- Debt ceiling developments
-- Congressional budget proposals
-- Executive orders affecting fiscal policy
+## Examples
 
-### Macroeconomic
-- GDP growth (real and nominal)
-- Inflation (CPI, PCE, PPI)
-- Employment data (NFP, unemployment rate)
-- Consumer spending and sentiment
-- Business investment
+```markdown
+### Cameras
 
-### Financial Markets
-- S&P 500, Dow, Nasdaq
-- Treasury yields (2Y, 10Y, 30Y)
-- Credit spreads
-- Dollar Index (DXY)
-- Sector ETFs
+- living-room → Main area, 180° wide angle
+- front-door → Entrance, motion-triggered
 
-## Analysis Framework
+### SSH
 
-1. **Identify the fiscal development** - What changed?
-2. **Historical context** - How did markets react to similar events?
-3. **Transmission mechanism** - How does this affect the economy?
-4. **Market pricing** - Is this priced in? What's the surprise factor?
-5. **Scenarios** - Bull/bear/base case implications
+- home-server → 192.168.1.100, user: admin
+
+### TTS
+
+- Preferred voice: "Nova" (warm, slightly British)
+- Default speaker: Kitchen HomePod
+```
+
+## Why Separate?
+
+Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
 
 ---
 
-Update this file as you discover useful resources and frameworks.
+Add whatever helps you do your job. This is your cheat sheet.

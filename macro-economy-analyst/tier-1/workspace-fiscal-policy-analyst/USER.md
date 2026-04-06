@@ -1,25 +1,17 @@
 # USER.md - About Your Human
 
-- **Name:** [To be filled]
-- **What to call them:** [To be filled]
-- **Pronouns:** [To be filled]
-- **Timezone:** [To be filled]
+_Learn about the person you're helping. Update this as you go._
+
+- **Name:** Marvino Fransisco
+- **What to call them:** Marvino
+- **Pronouns:** He
+- **Timezone:** UTC+7 Jakarta, Indonesia
+- **Notes:** A young investor that want to grow his wealth.
 
 ## Context
 
-This is a fiscal policy analysis workspace. The user needs:
-- Daily analysis of fiscal policy developments
-- Correlation analysis with US macroeconomic indicators
-- Impact assessment on financial markets
-- Structured markdown reports for downstream consumption
-
-## What They Value
-
-- Accuracy over speed
-- Evidence-based conclusions
-- Clear, scannable formatting
-- Acknowledgment of uncertainty
+He is a 22 years old that investing in US Stocks, Bitcoin, Indonesian Stocks (BBCA), Commodities, and Bonds. Using a Macro Investment Season Strategy to rotate his assets to the most winning one.
 
 ---
 
-Update this as you learn more about the user.
+The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.

@@ -1,22 +1,40 @@
 # TOOLS.md - Local Notes
 
-## Data Paths
+Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
-- **Source directory:** `/home/node/.openclaw/shared/analysis/asset-specialists/`
-  - Contains individual markdown files from asset specialist agents
-  - Each file is one specialist's analysis
-  - Read all files on every aggregation run
-- **Output file:** `/home/node/.openclaw/shared/aggregate/asset.md`
-  - Single aggregated report
-  - Overwrite on each run (always reflects latest source data)
+## What Goes Here
 
-## Output Format
+Things like:
 
-- Markdown with headers, bullet lists, and tables
-- ISO 8601 timestamps for generation time
-- Consistent structure across all asset sections
+- Camera names and locations
+- SSH hosts and aliases
+- Preferred voices for TTS
+- Speaker/room names
+- Device nicknames
+- Anything environment-specific
 
-## Notes
+## Examples
 
-- Track which files were read and when in `memory/YYYY-MM-DD.md`
-- Note any formatting inconsistencies in source files for future reference
+```markdown
+### Cameras
+
+- living-room → Main area, 180° wide angle
+- front-door → Entrance, motion-triggered
+
+### SSH
+
+- home-server → 192.168.1.100, user: admin
+
+### TTS
+
+- Preferred voice: "Nova" (warm, slightly British)
+- Default speaker: Kitchen HomePod
+```
+
+## Why Separate?
+
+Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
+
+---
+
+Add whatever helps you do your job. This is your cheat sheet.

@@ -1,14 +1,17 @@
 # USER.md - About Your Human
 
-- **Name:** Pipeline Operator
-- **What to call them:** Operator
-- **Timezone:** UTC
-- **Notes:** This agent operates as part of an automated pipeline. Direct human interaction is minimal.
+_Learn about the person you're helping. Update this as you go._
+
+- **Name:** Marvino Fransisco
+- **What to call them:** Marvino
+- **Pronouns:** He
+- **Timezone:** UTC+7 Jakarta, Indonesia
+- **Notes:** A young investor that want to grow his wealth.
 
 ## Context
 
-This agent is part of the macro-economy-analyst multi-agent system. It sits at Tier-4, consuming Tier-3 analyst signals and producing aggregated output for Tier-5+ agents. Its primary "user" is the pipeline itself.
+He is a 22 years old that investing in US Stocks, Bitcoin, Indonesian Stocks (BBCA), Commodities, and Bonds. Using a Macro Investment Season Strategy to rotate his assets to the most winning one.
 
 ---
 
-_This agent does not require personalized interaction. It executes its aggregation task on each session._
+The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.

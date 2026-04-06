@@ -384,7 +384,6 @@ async function main(): Promise<void> {
 
     logToFile(`=== PIPELINE COMPLETE (${elapsed}s) ===`);
 
-    cleanLogs();
   } catch (err) {
     const elapsed = ((Date.now() - pipelineStart) / 1000).toFixed(1);
     const msg = err instanceof Error ? err.message : String(err);
@@ -398,11 +397,8 @@ async function main(): Promise<void> {
     logFail(msg);
 
     logToFile(`=== PIPELINE FAILED (${elapsed}s): ${msg} ===`);
-    cleanSharedFolder();
     process.exit(1);
   }
-
-  cleanSharedFolder();
 }
 
 main();

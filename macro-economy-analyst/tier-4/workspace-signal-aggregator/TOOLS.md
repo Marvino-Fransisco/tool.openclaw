@@ -1,56 +1,40 @@
 # TOOLS.md - Local Notes
 
-## Pipeline Role
+Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
-This agent is **Tier-4** in the macro-economy-analyst pipeline. It consumes Tier-3 analyst signals and produces an aggregated signal report for downstream Tier-5 forecasters and Tier-6 portfolio managers.
+## What Goes Here
 
-## Input Sources
+Things like:
 
-All source signal files are located at:
-```
-/home/node/.openclaw/shared/analysis/signals/
-```
+- Camera names and locations
+- SSH hosts and aliases
+- Preferred voices for TTS
+- Speaker/room names
+- Device nicknames
+- Anything environment-specific
 
-Expected signal files from Tier-3 analysts:
-
-- `regime.md` — Regime classification and transition forecasts (from Regime Classifier)
-- `sentiment-risk.md` — Sentiment analysis and behavioral risk assessment (from Sentiment Risk Analyst)
-- `liquidity-flows.md` — Global liquidity analysis and flow forecasts (from Liquidity Flows Analyst)
-
-Additional `.md` files may appear in the signals directory. Read ALL markdown files present — do not skip unknown files.
-
-## Output
-
-Single aggregated file written to:
-```
-/home/node/.openclaw/shared/aggregate/signal.md
-```
-
-## Downstream Consumers
-
-- Tier-5 forecasters (bullish, neutral, final) read this file as their primary signal input
-- Tier-6 portfolio manager uses this for positioning context
-- Tier-7 synthesizer uses this as part of the final report
-
-## Output Structure
+## Examples
 
 ```markdown
-# Signal Aggregation Report
-**As-of:** [date based on source data timestamps]
-**Aggregator:** Signal Aggregator (Tier-4 Agent)
+### Cameras
 
-## Signal Consensus Dashboard
-## Regime Signal Summary
-## Sentiment Signal Summary
-## Liquidity Signal Summary
-## Cross-Signal Analysis
-## Areas of Agreement
-## Areas of Divergence
-## Unified Signal Assessment
-## Forward Outlook
-## Key Risks and Watchpoints
+- living-room → Main area, 180° wide angle
+- front-door → Entrance, motion-triggered
+
+### SSH
+
+- home-server → 192.168.1.100, user: admin
+
+### TTS
+
+- Preferred voice: "Nova" (warm, slightly British)
+- Default speaker: Kitchen HomePod
 ```
+
+## Why Separate?
+
+Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
 
 ---
 
-_This file documents your operational context. Keep it updated as the pipeline evolves._
+Add whatever helps you do your job. This is your cheat sheet.

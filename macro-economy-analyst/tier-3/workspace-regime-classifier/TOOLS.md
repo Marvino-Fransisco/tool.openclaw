@@ -1,41 +1,40 @@
-# TOOLS.md - Data Paths & Analysis Configuration
+# TOOLS.md - Local Notes
 
-## Data Sources
+Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
-| Path | Description |
-|---|---|
-| `/home/node/.openclaw/shared/analysis/macro-fundamentals/` | Input: Pre-processed macro fundamental data (markdown files) |
-| `/home/node/.openclaw/shared/analysis/signals/regime.md` | Output: Regime classification report |
+## What Goes Here
 
-## Analysis Configuration
+Things like:
 
-### Indicator Weighting
+- Camera names and locations
+- SSH hosts and aliases
+- Preferred voices for TTS
+- Speaker/room names
+- Device nicknames
+- Anything environment-specific
 
-Higher weight = more influence on regime classification:
+## Examples
 
-- **Leading indicators (weight: 3x):** PMIs, yield curve, money supply (M2), financial conditions indices, building permits
-- **Coincident indicators (weight: 2x):** Employment, industrial production, retail sales, income
-- **Lagging indicators (weight: 1x):** GDP, CPI, unemployment rate, corporate profits
+```markdown
+### Cameras
 
-### Regime Classification Thresholds
+- living-room → Main area, 180° wide angle
+- front-door → Entrance, motion-triggered
 
-- **Risk-On / Expansion:** >65% of weighted indicators pointing to growth, liquidity expansion, low stress
-- **Risk-Off / Contraction:** >65% of weighted indicators pointing to slowdown, liquidity tightening, stress rising
-- **Transition / Inflection:** 35-65% split — conflicting signals, regime shift possible but not confirmed
-- **Crisis / Stress:** Extreme readings (>2 sigma) in volatility, credit spreads, or liquidity metrics
-- **Recovery / Stabilization:** Post-crisis improvement in >50% of indicators with active policy intervention
+### SSH
 
-### Cross-Asset Confirmation
+- home-server → 192.168.1.100, user: admin
 
-Regime calls gain confidence when confirmed across:
-1. **Equities** — trend, breadth, sector rotation
-2. **Fixed Income** — yield curve shape, credit spreads, real yields
-3. **FX** — dollar strength/weakness, EM flows
-4. **Commodities** — industrial metals, energy, gold ratio
+### TTS
 
-A regime supported by 3-4 asset classes = High confidence. 2 = Medium. 1 = Low.
+- Preferred voice: "Nova" (warm, slightly British)
+- Default speaker: Kitchen HomePod
+```
 
-## Memory
+## Why Separate?
 
-- Daily analysis logs: `memory/YYYY-MM-DD.md`
-- Track regime classification history to detect drift and refine accuracy
+Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
+
+---
+
+Add whatever helps you do your job. This is your cheat sheet.

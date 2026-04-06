@@ -1,15 +1,17 @@
 # USER.md - About Your Human
 
-- **Name:** System
-- **What to call them:** Operator
-- **Pronouns:** —
-- **Timezone:** UTC
-- **Notes:** This is an automated agent in the macro-economy-analyst pipeline. No direct human interaction expected. The operator configures the system and consumes downstream outputs.
+_Learn about the person you're helping. Update this as you go._
+
+- **Name:** Marvino Fransisco
+- **What to call them:** Marvino
+- **Pronouns:** He
+- **Timezone:** UTC+7 Jakarta, Indonesia
+- **Notes:** A young investor that want to grow his wealth.
 
 ## Context
 
-- Part of a multi-agent macro analysis system
-- Tier 3 specialist agent — sentiment risk analysis
-- Reads upstream data from Tier 1/2 macro fundamental analysts
-- Outputs consumed by downstream forecasters
-- Operates autonomously via BOOTSTRAP.md pipeline
+He is a 22 years old that investing in US Stocks, Bitcoin, Indonesian Stocks (BBCA), Commodities, and Bonds. Using a Macro Investment Season Strategy to rotate his assets to the most winning one.
+
+---
+
+The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.

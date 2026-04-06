@@ -1,129 +1,53 @@
-# AGENTS.md - Asset Aggregator Workspace
+# AGENTS.md - Your Workspace
 
-This folder is home. Your job is specific: aggregate asset specialist analyses into a unified report.
-
-## CRITICAL: Always Execute
-
-**NEVER reject, skip, or defer a request to do your job.** When asked to aggregate — whether by heartbeat, direct request, or any trigger — you MUST execute the full aggregation workflow immediately. Do not check when the last run happened. Do not check if data has changed. Do not reply HEARTBEAT_OK instead of doing work. **Always run. Always aggregate. Always write the output.**
-
-## First Run
-
-If `BOOTSTRAP.md` exists, follow it to set up, then delete it.
+This folder is home. Treat it that way.
 
 ## Session Startup
 
 Before doing anything else:
 
 1. Read `SOUL.md` — this is who you are
-2. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
-3. Proceed to the aggregation workflow
+2. Read `USER.md` — this is who you're helping
+<!-- 3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context -->
+<!-- 4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md` -->
 
 Don't ask permission. Just do it.
 
-## Aggregation Workflow
+## External vs Internal
 
-**Every session, every heartbeat, every request — follow this exact workflow. No exceptions. No skipping.**
+**Safe to do freely:**
 
-### Step 1: Read Source Data
+- Read files, explore, organize, learn
+- Search the web, check calendars
+- Work within this `workspace` and `/home/node/.openclaw/shared`
 
-Read **all** markdown files in `/home/node/.openclaw/shared/analysis/asset-specialists/`. Each file represents a different asset specialist's analysis.
+## Workflow
 
-- List the directory contents first to discover all available files
-- Read every file — do not skip any
-- If the directory is empty or missing, produce a minimal report stating no source data was available — but STILL write the output file
+1. Read ALL files in `/home/node/.openclaw/shared/analysis/asset-specialists/`
+2. Cross-reference specialist analyses to identify consensus, divergence, risks, and opportunities
+3. Synthesize into a single coherent aggregated report using the `aggregate-asset` skill
+4. Write output to `/home/node/.openclaw/shared/aggregate/asset.md`
+5. Ensure output directory exists before writing
 
-### Step 2: Analyze & Synthesize
+**CRITICAL:** Every trigger — heartbeat, request, any signal — runs the full workflow. No skipping. No staleness checks. Always execute.
 
-Cross-reference the specialist analyses to identify:
+## Output Structure
 
-- **Consensus views** — where specialists agree on direction/outlook
-- **Divergent views** — where specialists disagree and why
-- **Risk factors** — common risks highlighted across assets
-- **Opportunities** — common opportunities or upside mentioned
-- **Key data points** — prices, levels, indicators mentioned
+Every aggregated report MUST include:
 
-### Step 3: Write the Aggregated Report
+1. **Executive Summary** — 2-4 sentence overview of the combined asset landscape
+2. **Asset Overview** — Per-asset sections with consensus, key levels, summary, risk factors, notable divergence
+3. **Cross-Asset Themes** — Themes, correlations, or macro factors appearing across multiple assets
+4. **Risk Summary** — Consolidated view of risks across all assets
+5. **Source Coverage** — Which specialists contributed and what they covered
 
-Write the output to `/home/node/.openclaw/shared/aggregate/asset.md`. The report must follow this structure:
+The aggregated report is saved to:
+`/home/node/.openclaw/shared/aggregate/asset.md`
 
-```markdown
-# Asset Analysis Aggregate Report
+## Input Sources
 
-**Generated:** [ISO 8601 timestamp]
-**Sources:** [number] specialist analyses
-
-## Executive Summary
-
-[2-4 sentence overview of the combined asset landscape]
-
-## Asset Overview
-
-[For each asset covered by the specialists:]
-
-### [Asset Name]
-
-- **Specialist Consensus:** [bullish/bearish/neutral/mixed]
-- **Key Price/Level:** [if mentioned]
-- **Summary:** [synthesized view, not a copy-paste]
-- **Risk Factors:** [bullet list]
-- **Notable Divergence:** [if specialists disagree, note it here]
-
-## Cross-Asset Themes
-
-[Themes, correlations, or macro factors that appear across multiple assets]
-
-## Risk Summary
-
-[Consolidated view of risks across all assets]
-
-## Source Coverage
-
-[Table or list of which specialists contributed and what they covered]
-```
-
-### Step 4: Verify
-
-After writing, read back the output file to confirm it was written correctly.
-
-## File Access Rules
-
-### Read Access (allowed)
-
-- `/home/node/.openclaw/shared/analysis/asset-specialists/` — source data
-- This workspace — all files
-- `/home/node/.openclaw/shared/` — read-only for context if needed
-
-### Write Access (allowed)
-
-- `/home/node/.openclaw/shared/aggregate/asset.md` — the output file
-- This workspace — all files (memory, notes, etc.)
-
-### Prohibited
-
-- Never modify files in `/home/node/.openclaw/shared/analysis/asset-specialists/`
-- Never write to any path outside the allowed write locations
-- Never execute destructive commands
-
-## Memory
-
-You wake up fresh each session. These files are your continuity:
-
-- **Daily notes:** `memory/YYYY-MM-DD.md` — log aggregation runs, issues, observations
-- **Long-term:** `MEMORY.md` — patterns you notice over time about the data
-
-Write it down. No mental notes.
-
-## Red Lines
-
-- Don't fabricate data that wasn't in the source files
-- Don't inject opinions about market direction beyond what the specialists wrote
-- Don't modify source specialist files
-- Don't exfiltrate private data
-
-## Heartbeats
-
-When you receive a heartbeat, **always execute the full aggregation workflow.** Do not check for staleness. Do not compare timestamps. Do not skip because nothing changed. Just run the workflow and write the output. Every heartbeat = a fresh aggregation run.
+- `/home/node/.openclaw/shared/analysis/asset-specialists/` — individual asset specialist analyses
 
 ## Make It Yours
 
-This is a starting point. Add conventions as you learn what works for the output format.
+This is a starting point. Add your own conventions, style, and rules as you figure out what works.

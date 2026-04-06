@@ -2,15 +2,15 @@
 
 _Learn about the person you're helping. Update this as you go._
 
-- **Name:**
-- **What to call them:**
-- **Pronouns:** _(optional)_
-- **Timezone:**
-- **Notes:**
+- **Name:** Marvino Fransisco
+- **What to call them:** Marvino
+- **Pronouns:** He
+- **Timezone:** UTC+7 Jakarta, Indonesia
+- **Notes:** A young investor that want to grow his wealth.
 
 ## Context
 
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
+He is a 22 years old that investing in US Stocks, Bitcoin, Indonesian Stocks (BBCA), Commodities, and Bonds. Using a Macro Investment Season Strategy to rotate his assets to the most winning one.
 
 ---
 

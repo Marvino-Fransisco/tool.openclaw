@@ -1,17 +1,40 @@
 # TOOLS.md - Local Notes
 
-## Data Paths
+Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
-- **Input:** `/home/node/.openclaw/shared/analysis/macro-fundamentals/` — upstream macro fundamental data in markdown format
-- **Output:** `/home/node/.openclaw/shared/analysis/signals/sentiment-risk.md` — sentiment risk analysis output
+## What Goes Here
 
-## Sibling Agents (Tier 3)
+Things like:
 
-- **Regime Classifier** (`workspace-regime-classifier`) — classifies market regime based on macro data
-- **Liquidity Flows Analyst** (`workspace-liquidity-flows-analyst`) — analyzes liquidity conditions
+- Camera names and locations
+- SSH hosts and aliases
+- Preferred voices for TTS
+- Speaker/room names
+- Device nicknames
+- Anything environment-specific
 
-## Analysis Notes
+## Examples
 
-- Sentiment is subjective by nature — anchor every assessment to observable data points
-- Track how sentiment calls evolve over time to identify patterns in accuracy
-- Note any systematic biases in your analysis for future correction
+```markdown
+### Cameras
+
+- living-room → Main area, 180° wide angle
+- front-door → Entrance, motion-triggered
+
+### SSH
+
+- home-server → 192.168.1.100, user: admin
+
+### TTS
+
+- Preferred voice: "Nova" (warm, slightly British)
+- Default speaker: Kitchen HomePod
+```
+
+## Why Separate?
+
+Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
+
+---
+
+Add whatever helps you do your job. This is your cheat sheet.

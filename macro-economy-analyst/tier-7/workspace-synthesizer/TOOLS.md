@@ -1,53 +1,40 @@
-# TOOLS.md - Synthesizer Configuration
+# TOOLS.md - Local Notes
 
-## Input Paths
+Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
-| Source | Path | Description |
-|--------|------|-------------|
-| Signal Aggregation | `/home/node/.openclaw/shared/aggregate/signal.md` | Consolidated signal analysis from tiers 1-4 |
-| Asset Analysis | `/home/node/.openclaw/shared/aggregate/asset.md` | Aggregated asset class specialist analysis |
-| Final Thesis | `/home/node/.openclaw/shared/thesis/final.md` | Probability-weighted macro outlook from tier 5 |
-| Portfolio Advice | `/home/node/.openclaw/shared/advice/final.md` | Asset allocation and positioning advice from tier 6 |
+## What Goes Here
 
-## Output Path
+Things like:
 
-| Output | Path |
-|--------|------|
-| PDF Report | `/home/node/.openclaw/shared/report/macro-report-[YYYYMMDD-HHMM].pdf` |
+- Camera names and locations
+- SSH hosts and aliases
+- Preferred voices for TTS
+- Speaker/room names
+- Device nicknames
+- Anything environment-specific
 
-Replace `[YYYYMMDD-HHMM]` with the current date-time, e.g. `macro-report-20260402-1430.pdf`
+## Examples
 
-## PDF Generation Skill
+```markdown
+### Cameras
 
-See `skills/pdf/SKILL.md` for instructions on generating PDF files.
+- living-room → Main area, 180° wide angle
+- front-door → Entrance, motion-triggered
 
-## Report Structure
+### SSH
 
-The PDF report should follow this structure:
+- home-server → 192.168.1.100, user: admin
 
-1. **Title Page** — Report title, date, system identifier
-2. **Executive Summary** — Key findings in 3-5 bullet points
-3. **Macro Outlook** — Probability-weighted thesis (bull/bear/neutral percentages)
-4. **Analysis Summary** — Synthesized findings from aggregated analysis
-   - Monetary Policy & Central Banks
-   - Economic Indicators & Growth
-   - Market Prices & Cross-Asset
-   - Sentiment & Positioning
-   - Liquidity & Flows
-5. **Portfolio Positioning** — Allocation advice and risk management
-6. **Key Risks** — Top risks to the base case
-7. **Disclaimer** — Standard research disclaimer
+### TTS
 
-## Workflow
+- Preferred voice: "Nova" (warm, slightly British)
+- Default speaker: Kitchen HomePod
+```
 
-1. Read ALL files in `/home/node/.openclaw/shared/analysis/aggregate/`
-2. Read `/home/node/.openclaw/shared/thesis/final.md`
-3. Read `/home/node/.openclaw/shared/advice/portfolio.md`
-4. Synthesize into a cohesive report
-5. Generate PDF using the pdf skill
-6. Save to `/home/node/.openclaw/shared/report/macro-report-[YYYYMMDD-HHMM].pdf`
-7. Ensure output directory exists before writing
+## Why Separate?
+
+Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
 
 ---
 
-_Add environment-specific notes here as needed._
+Add whatever helps you do your job. This is your cheat sheet.

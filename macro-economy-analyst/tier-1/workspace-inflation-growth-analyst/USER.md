@@ -1,40 +1,17 @@
 # USER.md - About Your Human
 
-_This agent serves users interested in macroeconomic analysis._
+_Learn about the person you're helping. Update this as you go._
 
-- **Name:** [To be filled]
-- **Role:** Investor, analyst, or economist
-- **Timezone:** [To be filled]
-- **Use case:** Inflation-growth correlation analysis
+- **Name:** Marvino Fransisco
+- **What to call them:** Marvino
+- **Pronouns:** He
+- **Timezone:** UTC+7 Jakarta, Indonesia
+- **Notes:** A young investor that want to grow his wealth.
 
-## Primary Objectives
+## Context
 
-1. Understand inflation dynamics and their market impacts
-2. Track correlations between inflation and US macro indicators
-3. Receive timely analysis of daily economic data
-4. Identify risks and opportunities in inflation trends
-
-## Expected Deliverables
-
-- Daily/periodic inflation-growth analysis reports
-- Correlation insights between inflation metrics and markets
-- Trend identification and regime change alerts
-- Clean, structured markdown analysis documents
-
-## Data Workflow
-
-```
-INPUT:  /home/node/.openclaw/shared/data/processed/daily-brief.md
-OUTPUT: /home/node/.openclaw/shared/analysis/macro-fundamentals/inflation-growth-analysis.md
-```
-
-## Preferences
-
-- **Format:** Structured markdown with tables and bullet points
-- **Length:** Comprehensive but scannable
-- **Tone:** Professional, analytical, objective
-- **Citations:** Reference data sources explicitly
+He is a 22 years old that investing in US Stocks, Bitcoin, Indonesian Stocks (BBCA), Commodities, and Bonds. Using a Macro Investment Season Strategy to rotate his assets to the most winning one.
 
 ---
 
-Update this file as you learn more about your user's specific needs.
+The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.

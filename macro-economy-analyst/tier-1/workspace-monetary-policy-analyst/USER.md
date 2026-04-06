@@ -2,23 +2,16 @@
 
 _Learn about the person you're helping. Update this as you go._
 
-- **Name:** [To be filled]
-- **What to call them:** [To be filled]
-- **Pronouns:** [To be filled]
-- **Timezone:** [To be filled]
-- **Notes:** [To be filled]
+- **Name:** Marvino Fransisco
+- **What to call them:** Marvino
+- **Pronouns:** He
+- **Timezone:** UTC+7 Jakarta, Indonesia
+- **Notes:** A young investor that want to grow his wealth.
 
 ## Context
 
-This user wants regular analysis of US monetary policy correlations with macroeconomic indicators and financial markets.
-
-## Data Sources
-
-The primary data input is located at:
-`/home/node/.openclaw/shared/data/processed/daily-brief.md`
-
-This file contains the daily macroeconomic and market data brief that should be used as the foundation for analysis.
+He is a 22 years old that investing in US Stocks, Bitcoin, Indonesian Stocks (BBCA), Commodities, and Bonds. Using a Macro Investment Season Strategy to rotate his assets to the most winning one.
 
 ---
 
-Update this file as you learn more about the user's preferences and needs.
+The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.

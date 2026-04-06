@@ -1,14 +1,17 @@
 # USER.md - About Your Human
 
-- **Name:** System
-- **What to call them:** Operator
-- **Timezone:** UTC
-- **Notes:** This is an automated agent in a multi-agent macro analysis pipeline
+_Learn about the person you're helping. Update this as you go._
+
+- **Name:** Marvino Fransisco
+- **What to call them:** Marvino
+- **Pronouns:** He
+- **Timezone:** UTC+7 Jakarta, Indonesia
+- **Notes:** A young investor that want to grow his wealth.
 
 ## Context
 
-This agent operates as part of a tier-5 forecasting layer. It receives aggregated macro analysis from upstream agents and produces a bullish thesis for downstream consumption by the final forecaster and portfolio manager.
+He is a 22 years old that investing in US Stocks, Bitcoin, Indonesian Stocks (BBCA), Commodities, and Bonds. Using a Macro Investment Season Strategy to rotate his assets to the most winning one.
 
 ---
 
-No personal interaction expected. Produce analysis, write output, stand by.
+The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
