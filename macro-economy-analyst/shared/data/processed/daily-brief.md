@@ -1,6 +1,6 @@
 # Central Bank Signals
 
-## Summary (2026-01-06 to 2026-04-06)
+## Summary (2026-01-07 to 2026-04-07)
 
 ### Overview
 
@@ -159,12 +159,12 @@
 | Series | Latest | 1M Chg | 1Y Chg | 5Y Avg | Trend |
 |--------|--------|--------|--------|--------|-------|
 | 2Y Treasury | 3.84% | +27.0bps | +37.0bps | 3.60% | Range-Bound |
-| 10Y Treasury | 4.35% | +22.0bps | +17.0bps | 4.20% | Range-Bound |
-| 30Y Treasury | 4.91% | +17.0bps | +5.0bps | 4.82% | Range-Bound |
-| 2Y10Y Spread | 0.50% | -9.0bps | -21.0bps | 0.61% | Range-Bound |
-| 3M10Y Spread | 0.62% | +16.0bps | +7.0bps | 0.51% | Range-Bound |
+| 10Y Treasury | 4.35% | +22.0bps | +20.0bps | 4.21% | Range-Bound |
+| 30Y Treasury | 4.91% | +17.0bps | +9.0bps | 4.82% | Range-Bound |
+| 2Y10Y Spread | 0.50% | -9.0bps | -18.0bps | 0.61% | Range-Bound |
+| 3M10Y Spread | 0.62% | +16.0bps | +9.0bps | 0.51% | Range-Bound |
 | IG OAS | 0.86% | +4.0bps | +7.0bps | 0.81% | Range-Bound |
-| HY OAS | 3.13% | +13.0bps | +34.0bps | 2.96% | Mixed |
+| HY OAS | 3.13% | +13.0bps | +34.0bps | 2.97% | Mixed |
 
 ---
 
@@ -198,8 +198,8 @@
 
 # Flows & Liquidity Report
 
-**Report Date:** 2026-04-06
-**Data Fetched At:** 2026-04-06T23:07:36.004Z
+**Report Date:** 2026-04-07
+**Data Fetched At:** 2026-04-07T03:16:11.514Z
 
 ---
 
@@ -214,7 +214,7 @@
 | BOGMBASE | 5.39K | -0.27% | -0.27% | Insufficient Data |
 | M2SL | 22.67K | +0.88% | +0.88% | Insufficient Data |
 | M1SL | 19.40K | +1.02% | +1.02% | Insufficient Data |
-| RRPONTSYD | 0.23 | -91.21% | -91.21% | Mixed |
+| RRPONTSYD | 0.23 | -95.05% | -95.05% | Mixed |
 | WTREGEN | 847.72K | +6.48% | +6.48% | Mixed |
 | WDTGAL | 803.55K | +2.55% | +2.55% | Mixed |
 | DPSACBW027SBOG | 18.99K | +1.98% | +1.98% | Accelerating Rise |
@@ -232,12 +232,20 @@
 
 # Geopolitics News
 
-- [Iran War Live Updates: Trump Renews Threat of Attacks on Bridges and Power Plants](https://www.nytimes.com/live/2026/04/06/world/iran-war-trump-israel)
-- [Here’s What Happened in the War in Iran and the Middle East on Monday](https://www.nytimes.com/2026/04/06/world/middleeast/middle-east-iran-war-week-6.html)
 - [Middle East crisis live: Iran warns of ‘devastating’ retaliation after Trump’s expletive-laden threats over strait of Hormuz](https://www.theguardian.com/world/live/2026/apr/06/iran-war-live-updates-trump-hormuz-oil-netanyahu-israel)
-- [Iran’s 10-Point Proposal Demands an End to Attacks and Sanctions](https://www.nytimes.com/2026/04/06/world/middleeast/iran-10-point-proposal.html)
-- [Trump Says Iran Cease-Fire Proposal Is ‘Not Good Enough’ as Deadline Approaches](https://www.nytimes.com/2026/04/06/us/politics/trump-iran-cease-fire-proposal.html)
 - [As Trump Deadline Looms, Iran and U.S. Mix Threats With Hints of Deal](https://www.nytimes.com/2026/04/06/world/middleeast/iran-trump-deadline.html)
+- [Iran War Live Updates: Trump Renews Threat of Attacks on Bridges and Power Plants](https://www.nytimes.com/live/2026/04/06/world/iran-war-trump-israel)
+- [Trump Says Iran Proposal Isn’t Enough to Stop Attacks on Bridges and Power Plants](https://www.nytimes.com/2026/04/06/us/politics/trump-iran-cease-fire-proposal.html)
+- [China Started Preparing for an Energy Crisis Long Before the Iran War](https://www.nytimes.com/2026/04/06/business/china-oil-shock-iran-war.html)
+- [‘They want to create a rift’: Israeli attacks deepen Lebanon fissures](https://www.aljazeera.com/features/2026/4/7/creating-rift-part-of-game-plan-israeli-attacks-deepen-lebanon-fissures?traffic_source=rss)
+- [Trump news at a glance: president’s deadline for Iran and threats against civilian targets loom](https://www.theguardian.com/us-news/2026/apr/06/trump-administration-news-updates-today)
+- [Iran war live: Trump warns of attacks as Hormuz deal deadline nears](https://www.aljazeera.com/news/liveblog/2026/4/7/iran-war-live-trump-warns-of-devastating-attacks-as-deal-deadline-nears?traffic_source=rss)
+- [Clock ticks on Trump's Iran ultimatum with little sign of breakthrough](https://www.bbc.com/news/articles/czexw94rj5jo?at_medium=RSS&at_campaign=rss)
+- [Second ex-staffer accuses Texas lawmaker of sending sexually explicit messages](https://www.theguardian.com/us-news/2026/apr/06/tony-gonzales-texas-staffers-accusations)
+- [Here’s What Happened in the War in Iran and the Middle East on Monday](https://www.nytimes.com/2026/04/06/world/middleeast/middle-east-iran-war-week-6.html)
+- [Down the rabbit hole: Trump offers dark Iran warnings after Easter bunny act](https://www.theguardian.com/us-news/2026/apr/06/trump-iran-easter-press-conference)
+- [Iran’s 10-Point Proposal Demands an End to Attacks and Sanctions](https://www.nytimes.com/2026/04/06/world/middleeast/iran-10-point-proposal.html)
+- [Trump threatens to take out Iran in 'one night' if no deal before deadline](https://www.bbc.com/news/articles/cqj8ep9w1pno?at_medium=RSS&at_campaign=rss)
 - [How rescue of US airman in remote part of Iran unfolded](https://www.bbc.com/news/articles/cx2vpz1kwreo?at_medium=RSS&at_campaign=rss)
 - [Trump says US could charge for Strait of Hormuz passage amid Iran war](https://www.aljazeera.com/news/2026/4/6/trump-says-us-could-charge-for-strait-of-hormuz-passage-amid-iran-war?traffic_source=rss)
 - [California county records sixth person bitten by rattlesnake in under a month](https://www.theguardian.com/us-news/2026/apr/06/california-sixth-person-bitten-rattlesnake)
@@ -253,7 +261,6 @@
 - [Israel Steps Up Attacks on Lebanon, Killing Dozens](https://www.nytimes.com/2026/04/06/world/middleeast/israel-attacks-lebanon-kill-dozens.html)
 - [Trump claims Iranians begging US to keep bombing Iran](https://www.aljazeera.com/video/newsfeed/2026/4/6/trump-claims-iranians-begging-us-to-keep-bombing-iran?traffic_source=rss)
 - [Video: Trump threatens to jail reporter over Iran airman rescue leak](https://www.aljazeera.com/video/newsfeed/2026/4/6/video-trump-threatens-to-jail-reporter-over-iran-airman-rescue-leak?traffic_source=rss)
-- [Trump threatens to jail journalist to find source of second missing airman report](https://www.theguardian.com/us-news/2026/apr/06/trump-threats-journalist-missing-airman-iran)
 - [Renewed Israeli strikes pound Lebanon as ground offensive deepens](https://www.aljazeera.com/video/newsfeed/2026/4/6/renewed-israeli-strikes-pound-lebanon-as-ground-offensive-deepens?traffic_source=rss)
 - [Child rescued from rubble after Russia ramps up strikes on Ukraine](https://www.aljazeera.com/video/newsfeed/2026/4/6/child-rescued-from-rubble-after-russia-ramps-up-strikes-on-ukraine?traffic_source=rss)
 - [Seyed Majid Khademi, Iranian Intelligence Chief, Killed in Overnight Attack](https://www.nytimes.com/2026/04/06/world/middleeast/iran-khademi-intelligence-israel.html)
@@ -268,15 +275,11 @@
 - [Democrats blast Trump for Iran ‘war crimes’ threat; Republicans supportive](https://www.aljazeera.com/news/2026/4/6/democrats-blast-trump-for-iran-war-crimes-threat-republicans-supportive?traffic_source=rss)
 - [How Asia became ground zero for the oil crisis](https://www.aljazeera.com/video/the-take-2/2026/4/6/aje-onl-tt_irn_energyrevisited_av_v2-060426?traffic_source=rss)
 - [Trump warns Hormuz deadline ‘final’ as Iran pushes proposal to end war](https://www.aljazeera.com/news/2026/4/6/trump-warns-deadline-final-as-iran-pushes-proposal-to-end-war?traffic_source=rss)
-- [Trump praised airman’s rescue in Iran during White House Easter event](https://www.aljazeera.com/video/newsfeed/2026/4/6/trump-praised-airmans-rescue-in-iran-during-white-house-easter-event?traffic_source=rss)
 - [Greek PM vows to tackle ‘deep state’ in wake of farm fraud scandal](https://www.theguardian.com/world/2026/apr/06/greek-pm-vows-to-tackle-deep-state-in-wake-of-farm-scandal)
-- [Libya’s oil disputes mirror Hormuz crisis, fuel European energy fears](https://www.aljazeera.com/news/2026/4/6/libyas-oil-disputes-mirror-hormuz-crisis-fuel-european-energy-fears?traffic_source=rss)
 - [Iranians Condemn Strike on a Top University](https://www.nytimes.com/2026/04/06/world/middleeast/iranians-condemn-university-strike.html)
 - [Pope Leo XIV Calls for Peace in First Easter Mass](https://www.nytimes.com/2026/04/05/world/europe/pope-leo-easter.html)
 - [Trump Moves Deadline for Iran to Open Strait of Hormuz](https://www.nytimes.com/2026/04/06/world/middleeast/trump-threat-strait-peace.html)
 - [Trump reiterates threats to bomb Iran's power plants and bridges](https://www.npr.org/2026/04/06/nx-s1-5775669/trump-iran-war-deadline-press-conference)
-- [Israeli army fire on WHO vehicle in southern Gaza kills one, medics report](https://www.aljazeera.com/news/2026/4/6/who-employee-killed-several-injured-in-israeli-attack-in-gaza-say-medics?traffic_source=rss)
-- [Iran’s internet blackout is longest national shutdown since Arab spring](https://www.theguardian.com/technology/2026/apr/06/iran-internet-blackout-is-longest-national-shutdown-since-arab-spring)
 - [Trump’s Board of Peace Gives Hamas Disarmament Deadline](https://www.nytimes.com/2026/04/06/world/middleeast/trump-board-of-peace-hamas-disarmament.html)
 - ['We're sinking deeper': Iranians brace for infrastructure strikes as Trump deadline nears](https://www.bbc.com/news/articles/cvgl0ng8z0do?at_medium=RSS&at_campaign=rss)
 - [Key islands give Iran sway over the Strait of Hormuz.](https://www.nytimes.com/live/2026/world/us-israel-iran-attack-maps/key-islands-give-iran-sway-over-the-strait-of-hormuz)
@@ -285,12 +288,10 @@
 - [Trump Revels in Threats to Commit War Crimes in Iran](https://www.nytimes.com/2026/04/05/us/politics/trump-iran-war-crimes-truth-social.html)
 - [Trump threatens Iran's power plants, bridges. And, Artemis II readies for lunar flyby](https://www.npr.org/2026/04/06/g-s1-116535/up-first-newsletter-trump-strait-of-hormuz-artemis-two-lunar-flyby-savannah-nancy-guthrie-ada)
 - [Iran rejects a U.S. ceasefire plan as Trump again threatens to bomb its infrastructure](https://www.npr.org/2026/04/06/nx-s1-5775383/iran-war-updates)
-- [‘I just legged it’: teenage shark bite victim recalls lucky escape while surfing in South Australia](https://www.theguardian.com/australia-news/2026/apr/06/shark-attack-teenage-surfer-bitten-south-australia)
 - [Nigerian army rescues 31 held after Easter church attack](https://www.bbc.com/news/articles/cgld111d9jpo?at_medium=RSS&at_campaign=rss)
 - [A Hidden Russian Hand in Hungary’s Election? Actually, It’s Quite Open.](https://www.nytimes.com/2026/04/06/world/europe/viktor-orban-hungary-election-russia.html)
 - [Why Trees Are Key to Russia’s Spring Offensive in Ukraine](https://www.nytimes.com/2026/04/06/world/europe/ukraine-russia-war-spring-foliage.html)
 - [When Suzuki met Suzuki: why a Tokyo dating agency is matching couples with the same name](https://www.theguardian.com/world/2026/apr/06/when-suzuki-met-suzuki-tokyo-dating-agency-matching-surnames-japan)
-- [China Started Preparing for an Energy Crisis Long Before the Iran War](https://www.nytimes.com/2026/04/06/business/china-oil-shock-iran-war.html)
 - [Three Charged With Arson in Attack on U.K. Jewish Charity’s Ambulances](https://www.nytimes.com/2026/04/04/world/europe/london-arson-attack.html)
 - [Here’s What Happened in the War in the Middle East on Sunday](https://www.nytimes.com/2026/04/05/world/middleeast/iran-israel-us-war-middle-east.html)
 - [Two protests, two elections: How Nepal's Gen Z succeeded where Bangladesh's stumbled](https://www.bbc.com/news/articles/cz673y3qqjlo?at_medium=RSS&at_campaign=rss)
@@ -302,8 +303,6 @@
 - [In Lebanon, more than 50 medics have been killed by Israel. Some say they're targeted](https://www.npr.org/2026/04/05/nx-s1-5763606/lebanon-medics-killed-targeted-israel)
 - [Interceptor Missiles Save Lives, but Stockpiles Are Dwindling](https://www.nytimes.com/2026/04/05/world/middleeast/iran-war-interceptor-missiles.html)
 - [China Built the World’s Drone Industry. Now It’s Locking Down the Skies.](https://www.nytimes.com/2026/04/05/world/asia/china-drone-regulations.html)
-- [Here’s What Happened in the War in the Middle East on Saturday](https://www.nytimes.com/2026/04/04/world/middleeast/iran-israel-us-war-middle-east.html)
-- [Israel Strikes Iran’s Largest Petrochemical Complex](https://www.nytimes.com/2026/04/04/world/middleeast/israel-strikes-mahshahr-iran-oil.html)
 
 
 ---
@@ -314,24 +313,24 @@
 
 | Symbol | Name | Latest | 1Y Return | 5Y CAGR | Volatility | RSI | Trend |
 |--------|------|--------|-----------|---------|------------|-----|-------|
-| ^GSPC | S&P 500 | $6,611.83 | +30.61% | +10.14% | +16.89% | 45 | Bullish |
-| ^DJI | Dow Jones Industrial Average | $46,669.88 | +22.93% | +6.90% | +14.76% | 47 | Bullish |
-| ^IXIC | NASDAQ Composite | $21,996.34 | +40.97% | +9.96% | +22.43% | 45 | Bullish |
-| ^RUT | Russell 2000 | $2,540.64 | +40.36% | +2.71% | +22.59% | 54 | Bullish |
-| ^VIX | CBOE Volatility Index | $24.17 | -48.55% | +7.10% | +127.54% | 51 | Strong Bearish |
-| EURUSD=X | EUR/USD | $1.15 | +5.11% | -0.56% | +7.55% | 50 | Bullish |
-| JPYUSD=X | JPY/USD | $0.01 | -8.94% | -7.22% | +9.72% | 46 | Strong Bearish |
-| GBPUSD=X | GBP/USD | $1.32 | +2.50% | -0.75% | +8.44% | 44 | Strong Bearish |
-| CNYUSD=X | CNY/USD | $0.15 | +5.80% | -1.01% | +5.48% | 67 | Bullish |
-| DX-Y.NYB | US Dollar Index | $99.99 | -3.17% | +1.58% | +7.14% | 53 | Strong Bullish |
-| GC=F | Gold Futures | $4,684.20 | +58.72% | +21.92% | +18.04% | 40 | Strong Bearish |
-| SI=F | Silver Futures | $73.01 | +147.42% | +23.69% | +37.72% | 38 | Strong Bearish |
-| CL=F | Crude Oil WTI Futures | $113.45 | +86.90% | +13.68% | +38.05% | 70 | Strong Bullish |
-| BZ=F | Brent Crude Oil Futures | $109.97 | +71.27% | +11.74% | +36.11% | 57 | Strong Bullish |
-| NG=F | Natural Gas Futures | $2.81 | -23.17% | +2.19% | +83.35% | 38 | Bearish |
-| HG=F | Copper Futures | $5.61 | +34.54% | +6.66% | +27.95% | 41 | Bullish |
-| BTC-USD | Bitcoin USD | $68,665.91 | -12.21% | +4.15% | +46.67% | 41 | Bullish |
-| ETH-USD | Ethereum USD | $2,099.15 | +33.13% | +1.27% | +63.13% | 45 | Bullish |
+| ^GSPC | S&P 500 | $6,611.83 | +30.61% | +10.06% | +16.90% | 45 | Bullish |
+| ^DJI | Dow Jones Industrial Average | $46,669.88 | +22.93% | +6.86% | +14.77% | 47 | Bullish |
+| ^IXIC | NASDAQ Composite | $21,996.34 | +40.97% | +9.74% | +22.44% | 45 | Bullish |
+| ^RUT | Russell 2000 | $2,540.64 | +40.36% | +2.53% | +22.59% | 54 | Bullish |
+| ^VIX | CBOE Volatility Index | $24.17 | -48.55% | +7.36% | +127.59% | 51 | Strong Bearish |
+| EURUSD=X | EUR/USD | $1.15 | +5.67% | -0.65% | +7.55% | 50 | Strong Bearish |
+| JPYUSD=X | JPY/USD | $0.01 | -7.56% | -7.32% | +9.72% | 45 | Strong Bearish |
+| GBPUSD=X | GBP/USD | $1.32 | +3.80% | -0.76% | +8.44% | 43 | Strong Bearish |
+| CNYUSD=X | CNY/USD | $0.15 | +6.23% | -0.98% | +5.48% | 52 | Bullish |
+| DX-Y.NYB | US Dollar Index | $100.11 | -3.05% | +1.69% | +7.14% | 55 | Strong Bullish |
+| GC=F | Gold Futures | $4,673.60 | +58.36% | +21.63% | +18.03% | 39 | Strong Bearish |
+| SI=F | Silver Futures | $72.66 | +146.22% | +23.25% | +37.72% | 39 | Strong Bearish |
+| CL=F | Crude Oil WTI Futures | $115.20 | +89.79% | +14.10% | +38.06% | 69 | Strong Bullish |
+| BZ=F | Brent Crude Oil Futures | $111.27 | +73.29% | +11.99% | +36.12% | 56 | Strong Bullish |
+| NG=F | Natural Gas Futures | $2.79 | -23.72% | +2.03% | +83.35% | 37 | Bearish |
+| HG=F | Copper Futures | $5.62 | +34.83% | +6.50% | +27.95% | 45 | Bullish |
+| BTC-USD | Bitcoin USD | $68,656.14 | -13.35% | +3.32% | +46.66% | 41 | Bullish |
+| ETH-USD | Ethereum USD | $2,106.53 | +35.45% | +0.17% | +63.11% | 45 | Bullish |
 
 ---
 
@@ -355,11 +354,11 @@
 
 | Symbol | Name | Latest | 1W Change | 1M Change | 1Y Change | 52W High | 52W Low |
 |--------|------|--------|-----------|-----------|-----------|----------|----------|
-| EURUSD=X | EUR/USD | $1.15 | +0.47% | -1.95% | +5.11% | $1.20 | $1.09 |
-| JPYUSD=X | JPY/USD | $0.01 | +0.33% | -2.40% | -8.94% | $0.01 | $0.01 |
-| GBPUSD=X | GBP/USD | $1.32 | -0.03% | -1.95% | +2.50% | $1.38 | $1.27 |
-| CNYUSD=X | CNY/USD | $0.15 | +0.41% | +0.37% | +5.80% | $0.15 | $0.14 |
-| DX-Y.NYB | US Dollar Index | $99.99 | +0.09% | +2.34% | -3.17% | $103.54 | $95.55 |
+| EURUSD=X | EUR/USD | $1.15 | +0.37% | -2.05% | +5.67% | $1.20 | $1.09 |
+| JPYUSD=X | JPY/USD | $0.01 | +0.23% | -2.50% | -7.56% | $0.01 | $0.01 |
+| GBPUSD=X | GBP/USD | $1.32 | -0.15% | -2.07% | +3.80% | $1.38 | $1.27 |
+| CNYUSD=X | CNY/USD | $0.15 | +0.46% | +0.05% | +6.23% | $0.15 | $0.14 |
+| DX-Y.NYB | US Dollar Index | $100.11 | -0.04% | +2.28% | -3.05% | $103.54 | $95.55 |
 
 ---
 
@@ -369,12 +368,12 @@
 
 | Symbol | Name | Latest | 1W Change | 1M Change | 1Y Change | 52W High | 52W Low |
 |--------|------|--------|-----------|-----------|-----------|----------|----------|
-| GC=F | Gold Futures | $4,684.20 | +7.06% | -10.00% | +58.72% | $5,586.20 | $2,949.70 |
-| SI=F | Silver Futures | $73.01 | +7.90% | -15.61% | +147.42% | $121.30 | $28.31 |
-| CL=F | Crude Oil WTI Futures | $113.45 | +20.08% | +71.09% | +86.90% | $119.48 | $54.98 |
-| BZ=F | Brent Crude Oil Futures | $109.97 | +1.81% | +53.83% | +71.27% | $119.40 | $58.39 |
-| NG=F | Natural Gas Futures | $2.81 | -6.37% | -5.93% | -23.17% | $7.83 | $2.62 |
-| HG=F | Copper Futures | $5.61 | +2.98% | -2.84% | +34.54% | $6.51 | $4.10 |
+| GC=F | Gold Futures | $4,673.60 | +4.04% | -9.35% | +58.36% | $5,586.20 | $2,949.70 |
+| SI=F | Silver Futures | $72.66 | +4.48% | -16.92% | +146.22% | $121.30 | $28.31 |
+| CL=F | Crude Oil WTI Futures | $115.20 | +15.62% | +75.53% | +89.79% | $119.48 | $54.98 |
+| BZ=F | Brent Crude Oil Futures | $111.27 | -1.15% | +57.23% | +73.29% | $119.40 | $58.39 |
+| NG=F | Natural Gas Futures | $2.79 | -9.92% | -4.36% | -23.72% | $7.83 | $2.62 |
+| HG=F | Copper Futures | $5.62 | +2.82% | -5.10% | +34.83% | $6.51 | $4.10 |
 
 ---
 
@@ -384,8 +383,8 @@
 
 | Symbol | Name | Latest | 1W Change | 1M Change | 1Y Change | 52W High | 52W Low |
 |--------|------|--------|-----------|-----------|-----------|----------|----------|
-| BTC-USD | Bitcoin USD | $68,665.91 | +0.63% | +4.09% | -12.21% | $126,198.07 | $60,074.20 |
-| ETH-USD | Ethereum USD | $2,099.15 | -0.26% | +8.39% | +33.13% | $4,953.73 | $1,386.80 |
+| BTC-USD | Bitcoin USD | $68,656.14 | +0.62% | +4.07% | -13.35% | $126,198.07 | $60,074.20 |
+| ETH-USD | Ethereum USD | $2,106.53 | +0.09% | +8.77% | +35.45% | $4,953.73 | $1,386.80 |
 
 ---
 
@@ -400,7 +399,7 @@
 | Indicator | Current Value | Level | Interpretation |
 |-----------|---------------|-------|----------------|
 | VIX | 23.87 | Elevated | Volatility expectations |
-| Fear & Greed | 13 | Extreme Fear | Potential buying opportunity |
+| Fear & Greed | 11 | Extreme Fear | Potential buying opportunity |
 | AAII Bullish | 33.6% | -- | Retail sentiment |
 | AAII Spread | -17.799999999999997 | -- | Bull-Bear difference |
 
@@ -440,13 +439,13 @@
 
 ## Fear & Greed Index
 
-**Timestamp:** 2026-04-06T00:00:00.000Z
+**Timestamp:** 2026-04-07T00:00:00.000Z
 
 ### Current Reading
 
 | Metric | Value |
 |--------|-------|
-| **Score** | 13 / 100 |
+| **Score** | 11 / 100 |
 | **Classification** | Extreme Fear |
 | **Signal** | Potential buying opportunity |
 
@@ -454,9 +453,9 @@
 
 | Period | Value | Change |
 |--------|-------|--------|
-| Previous Close | 12 | +1 |
-| Week Ago | 8 | +5 |
-| Month Ago | 12 | +1 |
+| Previous Close | 13 | -2 |
+| Week Ago | 11 | +0 |
+| Month Ago | 12 | -1 |
 | Year Ago | undefined | NaN |
 
 ---

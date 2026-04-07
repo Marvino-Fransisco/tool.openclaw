@@ -5,7 +5,7 @@
 | Indicator | Current Value | Level | Interpretation |
 |-----------|---------------|-------|----------------|
 | VIX | 23.87 | Elevated | Volatility expectations |
-| Fear & Greed | 13 | Extreme Fear | Potential buying opportunity |
+| Fear & Greed | 11 | Extreme Fear | Potential buying opportunity |
 | AAII Bullish | 33.6% | -- | Retail sentiment |
 | AAII Spread | -17.799999999999997 | -- | Bull-Bear difference |
 
@@ -45,13 +45,13 @@
 
 ## Fear & Greed Index
 
-**Timestamp:** 2026-04-06T00:00:00.000Z
+**Timestamp:** 2026-04-07T00:00:00.000Z
 
 ### Current Reading
 
 | Metric | Value |
 |--------|-------|
-| **Score** | 13 / 100 |
+| **Score** | 11 / 100 |
 | **Classification** | Extreme Fear |
 | **Signal** | Potential buying opportunity |
 
@@ -59,9 +59,9 @@
 
 | Period | Value | Change |
 |--------|-------|--------|
-| Previous Close | 12 | +1 |
-| Week Ago | 8 | +5 |
-| Month Ago | 12 | +1 |
+| Previous Close | 13 | -2 |
+| Week Ago | 11 | +0 |
+| Month Ago | 12 | -1 |
 | Year Ago | undefined | NaN |
 
 ---

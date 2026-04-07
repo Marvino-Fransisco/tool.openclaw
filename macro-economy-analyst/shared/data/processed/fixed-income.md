@@ -5,12 +5,12 @@
 | Series | Latest | 1M Chg | 1Y Chg | 5Y Avg | Trend |
 |--------|--------|--------|--------|--------|-------|
 | 2Y Treasury | 3.84% | +27.0bps | +37.0bps | 3.60% | Range-Bound |
-| 10Y Treasury | 4.35% | +22.0bps | +17.0bps | 4.20% | Range-Bound |
-| 30Y Treasury | 4.91% | +17.0bps | +5.0bps | 4.82% | Range-Bound |
-| 2Y10Y Spread | 0.50% | -9.0bps | -21.0bps | 0.61% | Range-Bound |
-| 3M10Y Spread | 0.62% | +16.0bps | +7.0bps | 0.51% | Range-Bound |
+| 10Y Treasury | 4.35% | +22.0bps | +20.0bps | 4.21% | Range-Bound |
+| 30Y Treasury | 4.91% | +17.0bps | +9.0bps | 4.82% | Range-Bound |
+| 2Y10Y Spread | 0.50% | -9.0bps | -18.0bps | 0.61% | Range-Bound |
+| 3M10Y Spread | 0.62% | +16.0bps | +9.0bps | 0.51% | Range-Bound |
 | IG OAS | 0.86% | +4.0bps | +7.0bps | 0.81% | Range-Bound |
-| HY OAS | 3.13% | +13.0bps | +34.0bps | 2.96% | Mixed |
+| HY OAS | 3.13% | +13.0bps | +34.0bps | 2.97% | Mixed |
 
 ---
 

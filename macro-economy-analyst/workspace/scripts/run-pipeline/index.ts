@@ -2,7 +2,7 @@ import { execSync, exec } from 'child_process';
 import * as fs from 'fs';
 import * as path from 'path';
 
-const AGENT_TIMEOUT_MS = 300_000;
+const AGENT_TIMEOUT_MS = 600_000;
 const AGENT_MESSAGE = 'Do your job';
 const LOG_DIR = '/home/node/.openclaw/logs';
 const LOG_FILE = path.join(LOG_DIR, 'pipeline.log');

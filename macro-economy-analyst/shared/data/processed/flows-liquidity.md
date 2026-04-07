@@ -1,7 +1,7 @@
 # Flows & Liquidity Report
 
-**Report Date:** 2026-04-06
-**Data Fetched At:** 2026-04-06T23:07:36.004Z
+**Report Date:** 2026-04-07
+**Data Fetched At:** 2026-04-07T03:16:11.514Z
 
 ---
 
@@ -16,7 +16,7 @@
 | BOGMBASE | 5.39K | -0.27% | -0.27% | Insufficient Data |
 | M2SL | 22.67K | +0.88% | +0.88% | Insufficient Data |
 | M1SL | 19.40K | +1.02% | +1.02% | Insufficient Data |
-| RRPONTSYD | 0.23 | -91.21% | -91.21% | Mixed |
+| RRPONTSYD | 0.23 | -95.05% | -95.05% | Mixed |
 | WTREGEN | 847.72K | +6.48% | +6.48% | Mixed |
 | WDTGAL | 803.55K | +2.55% | +2.55% | Mixed |
 | DPSACBW027SBOG | 18.99K | +1.98% | +1.98% | Accelerating Rise |
