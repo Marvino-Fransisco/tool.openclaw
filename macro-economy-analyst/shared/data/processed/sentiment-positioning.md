@@ -4,7 +4,7 @@
 
 | Indicator | Current Value | Level | Interpretation |
 |-----------|---------------|-------|----------------|
-| VIX | 24.54 | Elevated | Volatility expectations |
+| VIX | 23.87 | Elevated | Volatility expectations |
 | Fear & Greed | 13 | Extreme Fear | Potential buying opportunity |
 | AAII Bullish | 33.6% | -- | Retail sentiment |
 | AAII Spread | -17.799999999999997 | -- | Bull-Bear difference |
@@ -27,19 +27,19 @@
 
 | Metric | Value |
 |--------|-------|
-| **Latest Value** | 24.54 |
-| **Date** | Apr 1, 2026 |
+| **Latest Value** | 23.87 |
+| **Date** | Apr 2, 2026 |
 | **Level** | Elevated |
-| **Historical Percentile** | 85.0% |
+| **Historical Percentile** | 83.3% |
 
 ### Statistical Summary
 
 | Period | Mean | Median | Std Dev | Min | Max |
 |--------|------|--------|---------|-----|-----|
-| 30 Days | 24.13 | 24.38 | 3.43 | 17.93 | 31.05 |
-| 90 Days | 19.14 | 17.53 | 4.33 | 13.47 | 31.05 |
-| 1 Year | 18.95 | 17.29 | 4.41 | 13.47 | 40.72 |
-| Full History | 19.59 | 17.63 | 5.37 | 13.47 | 52.33 |
+| 30 Days | 24.25 | 24.38 | 3.35 | 17.93 | 31.05 |
+| 90 Days | 19.20 | 17.53 | 4.36 | 13.47 | 31.05 |
+| 1 Year | 18.89 | 17.29 | 4.21 | 13.47 | 37.56 |
+| Full History | 19.61 | 17.65 | 5.37 | 13.47 | 52.33 |
 
 ---
 

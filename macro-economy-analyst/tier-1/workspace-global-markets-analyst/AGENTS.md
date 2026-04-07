@@ -8,8 +8,8 @@ Before doing anything else:
 
 1. Read `SOUL.md` — this is who you are
 2. Read `USER.md` — this is who you're helping
-<!-- 3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context -->
-<!-- 4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md` -->
+3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
+4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
 
 Don't ask permission. Just do it.
 
@@ -22,6 +22,8 @@ Don't ask permission. Just do it.
 - Work within this `workspace` and `/home/node/.openclaw/shared`
 
 ## Workflow
+
+**Staleness Check:** Before running the workflow, check the last modified date of your output file (`/home/node/.openclaw/shared/analysis/macro-fundamentals/global-markets-analysis.md`). If it was already modified today (same date as current date), the analysis is current — skip the workflow. If the date is different, proceed with the full workflow below.
 
 1. Read `/home/node/.openclaw/shared/data/processed/daily-brief.md`
 2. Analyze global markets data using the `global-markets-analyze` skill

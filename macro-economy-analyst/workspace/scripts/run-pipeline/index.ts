@@ -7,6 +7,8 @@ const AGENT_MESSAGE = 'Do your job';
 const LOG_DIR = '/home/node/.openclaw/logs';
 const LOG_FILE = path.join(LOG_DIR, 'pipeline.log');
 const SHARED_DIR = '/home/node/.openclaw/shared';
+const REPORT_DIR = '/home/node/.openclaw/shared/report';
+const WORKSPACE_DIR = '/home/node/.openclaw/workspace';
 
 const LOG_FILES_TO_CLEAN = [
   LOG_FILE,
@@ -309,6 +311,32 @@ async function runAgentTiers(): Promise<void> {
   }
 }
 
+function cleanMarkdownFiles(dir: string): void {
+  logInfo(`Deleting markdown files in ${dir}...`);
+  try {
+    if (!fs.existsSync(dir)) {
+      logInfo('Directory does not exist, skipping markdown cleanup.');
+      return;
+    }
+    let deletedCount = 0;
+    const entries = fs.readdirSync(dir, { withFileTypes: true, recursive: true });
+    for (const entry of entries) {
+      if (entry.isFile() && entry.name.endsWith('.md')) {
+        const fullPath = path.join(entry.parentPath ?? (entry as any).path, entry.name);
+        try {
+          fs.unlinkSync(fullPath);
+          deletedCount++;
+        } catch (err) {
+          logWarn(`Could not remove ${entry.name}: ${err instanceof Error ? err.message : String(err)}`);
+        }
+      }
+    }
+    logOk(`Deleted ${deletedCount} markdown file(s) from ${dir}.`);
+  } catch (err) {
+    logWarn(`Failed to clean markdown files: ${err instanceof Error ? err.message : String(err)}`);
+  }
+}
+
 function cleanLogs(): void {
   logInfo('Cleaning up log files...');
   for (const file of LOG_FILES_TO_CLEAN) {
@@ -354,6 +382,30 @@ function cleanSharedFolder(): void {
   }
 }
 
+function moveReportToWorkspace(): void {
+  logInfo(`Looking for PDF report in ${REPORT_DIR}...`);
+  try {
+    if (!fs.existsSync(REPORT_DIR)) {
+      logWarn('Report directory does not exist.');
+      return;
+    }
+    const pdfFiles = fs.readdirSync(REPORT_DIR).filter((f) => f.endsWith('.pdf'));
+    if (pdfFiles.length === 0) {
+      logWarn('No PDF files found in report directory.');
+      return;
+    }
+    fs.mkdirSync(WORKSPACE_DIR, { recursive: true });
+    for (const pdf of pdfFiles) {
+      const src = path.join(REPORT_DIR, pdf);
+      const dest = path.join(WORKSPACE_DIR, pdf);
+      fs.renameSync(src, dest);
+      logOk(`Moved ${pdf} → ${WORKSPACE_DIR}`);
+    }
+  } catch (err) {
+    logWarn(`Failed to move report: ${err instanceof Error ? err.message : String(err)}`);
+  }
+}
+
 async function main(): Promise<void> {
   const pipelineStart = Date.now();
 
@@ -368,6 +420,7 @@ async function main(): Promise<void> {
   logToFile('=== PIPELINE START ===');
 
   try {
+    cleanMarkdownFiles(SHARED_DIR);
     await runDataPreparation();
     await runAgentTiers();
 
@@ -383,6 +436,8 @@ async function main(): Promise<void> {
     console.log('');
 
     logToFile(`=== PIPELINE COMPLETE (${elapsed}s) ===`);
+
+    moveReportToWorkspace();
 
   } catch (err) {
     const elapsed = ((Date.now() - pipelineStart) / 1000).toFixed(1);

@@ -8,8 +8,8 @@ Before doing anything else:
 
 1. Read `SOUL.md` — this is who you are
 2. Read `USER.md` — this is who you're helping
-<!-- 3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context -->
-<!-- 4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md` -->
+3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
+4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
 
 Don’t ask permission. Just do it.
 
@@ -22,6 +22,8 @@ Don’t ask permission. Just do it.
 - Work within this `workspace` and `/home/node/.openclaw/shared`
 
 ## Workflow
+
+**Staleness Check:** Before running the workflow, check if a report file matching today's date already exists in `/home/node/.openclaw/shared/report/` (filename pattern: `macro-report-[YYYYMMDD]-*.pdf`). If a report was already generated today, the analysis is current — skip the workflow. If no report exists for today, proceed with the full workflow below.
 
 1. Read ALL files in `/home/node/.openclaw/shared/aggregate/`
 2. Read `/home/node/.openclaw/shared/thesis/final.md`
