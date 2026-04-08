@@ -1,6 +1,7 @@
 import { execSync, exec } from 'child_process';
 import * as fs from 'fs';
 import * as path from 'path';
+import { sendReportToDiscord } from '../discord/send-report.js';
 
 const AGENT_TIMEOUT_MS = 600_000;
 const AGENT_MESSAGE = 'Do your job';
@@ -299,9 +300,8 @@ async function runAgentTiers(): Promise<void> {
       step: 11,
       label: 'Tier 7 — Synthesizer',
       description:
-        'Synthesizing all analysis into final report → PDF + deliver to Discord',
+        'Synthesizing all analysis into final report → PDF',
       agents: TIER_7_AGENTS,
-      deliver: true,
     },
   ];
 
@@ -382,30 +382,6 @@ function cleanSharedFolder(): void {
   }
 }
 
-function moveReportToWorkspace(): void {
-  logInfo(`Looking for PDF report in ${REPORT_DIR}...`);
-  try {
-    if (!fs.existsSync(REPORT_DIR)) {
-      logWarn('Report directory does not exist.');
-      return;
-    }
-    const pdfFiles = fs.readdirSync(REPORT_DIR).filter((f) => f.endsWith('.pdf'));
-    if (pdfFiles.length === 0) {
-      logWarn('No PDF files found in report directory.');
-      return;
-    }
-    fs.mkdirSync(WORKSPACE_DIR, { recursive: true });
-    for (const pdf of pdfFiles) {
-      const src = path.join(REPORT_DIR, pdf);
-      const dest = path.join(WORKSPACE_DIR, pdf);
-      fs.renameSync(src, dest);
-      logOk(`Moved ${pdf} → ${WORKSPACE_DIR}`);
-    }
-  } catch (err) {
-    logWarn(`Failed to move report: ${err instanceof Error ? err.message : String(err)}`);
-  }
-}
-
 async function main(): Promise<void> {
   const pipelineStart = Date.now();
 
@@ -437,7 +413,8 @@ async function main(): Promise<void> {
 
     logToFile(`=== PIPELINE COMPLETE (${elapsed}s) ===`);
 
-    moveReportToWorkspace();
+    banner('POST-PIPELINE: SENDING REPORT TO DISCORD', '#');
+    await sendReportToDiscord();
 
   } catch (err) {
     const elapsed = ((Date.now() - pipelineStart) / 1000).toFixed(1);

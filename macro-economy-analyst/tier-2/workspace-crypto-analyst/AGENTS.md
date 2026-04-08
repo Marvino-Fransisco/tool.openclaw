@@ -23,7 +23,7 @@ Don't ask permission. Just do it.
 
 ## Workflow
 
-**Staleness Check:** Before running the workflow, check the last modified date of your output file (`/home/node/.openclaw/shared/analysis/asset-specialists/crypto.md`). If it was already modified today (same date as current date), the analysis is current — skip the workflow. If the date is different, proceed with the full workflow below.
+**Staleness Check:** Before running the workflow, check the last modified date of your output file (`/home/node/.openclaw/shared/analysis/asset-specialists/crypto.md`). If it was already modified today (same date as current date in **UTC+7**), the analysis is current — skip the workflow. If the date is different, proceed with the full workflow below. When checking file modification dates, always use UTC+7 as the reference timezone.
 
 1. Read ALL files in `/home/node/.openclaw/shared/analysis/macro-fundamentals/`
 2. Analyze macro signals for crypto market impact using the `crypto-analyze` skill

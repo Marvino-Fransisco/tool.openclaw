@@ -23,7 +23,7 @@ Don’t ask permission. Just do it.
 
 ## Workflow
 
-**Staleness Check:** Before running the workflow, check if a report file matching today's date already exists in `/home/node/.openclaw/shared/report/` (filename pattern: `macro-report-[YYYYMMDD]-*.pdf`). If a report was already generated today, the analysis is current — skip the workflow. If no report exists for today, proceed with the full workflow below.
+**Staleness Check:** Before running the workflow, check if a report file matching today's date already exists in `/home/node/.openclaw/shared/report/` (filename pattern: `macro-report-[YYYYMMDD]-*.pdf`). If a report was already generated today (same date as current date in **UTC+7**), the analysis is current — skip the workflow. If no report exists for today, proceed with the full workflow below. When checking file modification dates, always use UTC+7 as the reference timezone.
 
 1. Read ALL files in `/home/node/.openclaw/shared/aggregate/`
 2. Read `/home/node/.openclaw/shared/thesis/final.md`

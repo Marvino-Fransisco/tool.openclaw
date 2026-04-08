@@ -23,7 +23,7 @@ Don't ask permission. Just do it.
 
 ## Workflow
 
-**Staleness Check:** Before running the workflow, check the last modified date of pdf report file (`macro-report-{date_time}.pdf`). If it was already modified today (same date as current date), the analysis is current — skip the workflow. If the date is different, proceed with the full workflow below.
+**Staleness Check:** Before running the workflow, check the last modified date of pdf report file (`macro-report-{date_time}.pdf`). If it was already modified today (same date as current date in **UTC+7**), the analysis is current — skip the workflow. If the date is different, proceed with the full workflow below. When checking file modification dates, always use UTC+7 as the reference timezone.
 
 1. When asked about macro economics data or analysis, use the `run-pipeline` skill
 2. Run `npm run pipeline -y` to execute the full agent pipeline

@@ -1,61 +1,93 @@
 # Bullish Thesis
 
-**As-of:** 2026-04-07 03:21 UTC
-**Confidence: 40%** — Event-dependent, low signal coverage (1 of 3 signals operational)
+**As-of:** 2026-04-08 04:41 UTC
+**Confidence: 65%** — Risk-on momentum accelerating, all signals aligned directionally
 
 ---
 
 ## Executive Summary
 
-- Markets are pricing ~60-70% probability of a US-Iran ceasefire/de-escalation by tonight's Trump deadline — the base case is bullish resolution
-- 6+ weeks of extreme fear (CNN F&G sub-25) is historically unusual and sets up for mean-reversion once the geopolitical binary clears
-- 4 consecutive up days already reflect revealed preference for risk despite stated fear — smart money is positioning ahead of resolution
-- The pipeline is broken upstream (no macro-fundamentals, no liquidity data), so this thesis is built on sentiment dynamics alone — a significant caveat
-- **The bull case is a relief rally / fear mean-reversion play, not a structural growth thesis**
+- **The geopolitical dam broke overnight.** Trump suspends Iran attacks, Iran agrees to 10-point proposal, Hormuz reopens, Israel agrees. This is not a deadline extension — it's active diplomatic engagement with specific terms.
+- **Oil -18% to <$93** is the single most bullish transmission mechanism: reduces inflation risk, eases fiscal drag, frees trapped liquidity, signals de-escalation credibility.
+- **All three signals (regime, sentiment, liquidity) are directionally aligned for the first time this cycle** — near-term risk-on is not in question, only magnitude and sustainability.
+- **6+ weeks of extreme fear at F&G sub-25 sets up for 15-25% forward returns over 3-6 months** if the ceasefire proves durable — this is historically one of the strongest contrarian setups.
+- **The ceiling is the 2-week ceasefire window.** Manage positioning around that clock, not the trend. Trade the bounce, trim into strength.
 
 ## Macro Foundation
 
-⚠️ **No macro-fundamental data available.** The Tier-1/Tier-2 pipeline is not feeding data. Regime classification is UNDETERMINED at 0% confidence. We cannot confirm whether the macro backdrop supports growth, stagflation, or contraction. This is the single biggest gap in this analysis.
+The underlying macro was solid all along — the geopolitical overlay was the only suppressant:
 
-The only macro signal we have is geopolitical: an imminent US-Iran Strait of Hormuz deadline creating a binary event. The optimistic interpretation is that the market's 60-70% ceasefire pricing reflects informed consensus — and that markets tend to resolve geopolitical crises toward de-escalation more often than not.
+- **GDP 2.3%** with resilient retail sales
+- **Unemployment 4.3%** — healthy labor market intact
+- **Yield curve steepening +52bps** — classic early-cycle signal
+- **Fed dovish shift** (21% dovish comms) — expectations-channel easing in progress
+- **Credit spreads tightening** — no banking stress, HY OAS declining
+- **DXY weakening -3.6% (1Y), -1.7% (1M)** — USD funding pressure releasing globally
+
+With the geopolitical risk premium being stripped, the macro backdrop that was always there is now visible. In a non-geopolitical environment, this data clearly supports Risk-On. The regime classifier agrees: this is Transition → Recovery, triggered by the ceasefire.
 
 ## Key Catalysts
 
-1. **Trump Hormuz Deadline (~21 hours)** — Resolution triggers sharp sentiment snap toward neutral/greed, F&G from 22.6 → 40-50, VIX compression, and a 3-5% S&P relief rally
-2. **Fear Mean-Reversion** — 6+ weeks of sub-25 F&G is extended by historical standards. When the geopolitical overhang lifts, sentiment normalization alone provides tailwind
-3. **Revealed Preference Already in Motion** — 4 consecutive up days indicate buyers are stepping in despite extreme fear readings. This is not capitulation behavior; it's accumulation into uncertainty
-4. **Post-Resolution Earnings Season** — If geopolitics stabilize, markets can refocus on earnings, where S&P 500 earnings growth has been resilient in prior cycles post-crisis
+1. **Ceasefire formalization** — The 10-point proposal + Hormuz reopening + Israeli agreement is stronger than a simple deadline extension. Any formal deal signing in the next 2 weeks is the single most bullish catalyst for sustained recovery.
+2. **Oil breaking $90** — At $93 and falling, WTI is one step from the full Recovery regime confirmation. Below $90 removes the last major macro headwind and confirms de-escalation.
+3. **VIX breaking below 20** — Unlocks positive dealer delta, creating self-reinforcing rally tailwind. Currently at 25.8 and compressing. Likely this week.
+4. **F&G survey catch-up** — Crowds lag by 24-48 hours. Expect violent swing from 22 to 35-45 within 3 sessions as retail chases the rally. This crowd FOMO is fuel, not a top signal — the 5-week fear regime makes this a historically valid entry point.
+5. **Fed cut trajectory strengthening** — Dovish communication + oil collapse = clearer path to September cut. Rate-sensitive sectors (housing, tech) benefit disproportionately.
 
 ## Earnings & Valuation Support
 
-Cannot assess — no macro-fundamental data available. No GDP, inflation, labor, or PMI inputs. Valuation thesis is unsupported by data.
+- S&P 500 is ~5.5% below ATH — the geopolitical discount is being removed, not earnings multiples expanding on speculation
+- 6+ weeks of extreme fear historically correspond to 15-25% forward returns over 3-6 months (fear depth = opportunity magnitude)
+- Energy cost relief improves margins across sectors — Q2 earnings guidance should benefit from the oil collapse
+- Risk appetite returning supports multiple expansion in growth/tech, which benefits Marvino's US equity allocation
 
 ## Liquidity & Flow Dynamics
 
-⚠️ **No liquidity signal available.** Cannot assess fund flows, put/call ratios, institutional positioning, or cross-asset capital movements. This is a critical blind spot.
+- **Safe-haven unwind accelerating** — capital rotating out of USD, gold, and Treasuries back into risk assets. DXY weakness is the canary.
+- **Short-covering + cash reallocation** — 6 weeks of fear built significant short interest and cash positions. Mechanical buying pressure as these unwind.
+- **Near-term liquidity: +$50-100B+** — the overnight events likely push toward the high end or beyond the projected range given oil -18% and futures +2.1%
+- **Dealer delta flip at VIX <20** — when triggered, creates positive gamma feedback loop that amplifies upside
+- **QT continues at ~$25B/month** — structural drain but overwhelmed by position normalization flows in the near-term
+
+⚠️ **Gold remains the contrarian warning.** At ATH $4,805 despite ceasefire progress. If gold doesn't pull back post-deal, it signals structural de-dollarization or central bank buying that persists regardless of geopolitics. Watch closely.
 
 ## Risk Acknowledgment
 
-This bullish thesis rests on fragile foundations:
+The bull case is strong for 1-5 days and solid for 1-4 weeks. The risks are concentrated at the 2-week mark and beyond:
 
-- **30-40% chance of escalation** — If the Hormuz deadline triggers military action, VIX >40, F&G sub-10, oil spikes. The bull case is destroyed overnight
-- **Relief rally trap (40-50% probability)** — Even with ceasefire, the rally may be sold into, netting only a 3-5% pop before renewed selling
-- **Oil-driven inflation resurgence** — Prolonged conflict-driven oil elevation could reignite inflation fears, complicating the Fed's easing path
-- **Upstream pipeline is broken** — We're flying blind on macro fundamentals and liquidity. This thesis could be completely wrong about the structural backdrop
-- **Extended fear can persist** — 6+ weeks sub-25 is unusual, but fear regimes have lasted longer in past crises (2008-2009, 2020). Mean-reversion is not guaranteed on a specific timeline
+- **Ceasefire negotiations stall in week 2 (40%)** — The 2-week clock is the structural ceiling. If talks break down, markets have already priced peace — the re-pricing would be more violent than the original sell-off.
+- **"Sell the news" on formal deal (40-50%)** — Relief rally may front-run the actual agreement. Expect 3-5% pullback on formal signing.
+- **Oil-driven CPI surprise (May-June, 30%)** — Coming CPI data reflects the $100+ oil spike period. Even with geopolitics improving, headline inflation could temporarily spike fear.
+- **Ceasefire collapse (20-30%)** — Worst outcome. S&P retests 6,000-6,200. This is the tail that justifies trimming, not liquidating.
+- **Gold persistence post-deal (25-30%)** — If gold stays elevated despite peace, structural de-dollarization is the message. This would cap upside in equities.
+- **Upstream pipeline gaps remain** — No macro-fundamental data from Tier-1/Tier-2. No PMI, M2, ISM, or fund flows. The thesis is strong but operating with incomplete instruments.
 
 ## Time Horizon
 
 | Horizon | Outlook | Thesis |
 |---|---|---|
-| **Near-term (hours-5 days)** | Cautiously bullish | Ceasefire resolution → relief rally. Escalation → thesis invalidated |
-| **Short-term (1-4 weeks)** | Moderately bullish | Post-resolution sentiment normalization. Rally sustainability depends on follow-through buying |
-| **Medium-term (1-3 months)** | Uncertain | Depends on geopolitical durability, oil inflation impact, and whether macro data confirms growth. Without upstream data, cannot construct a medium-term bull case with conviction |
+| **Near-term (1-5 days)** | **Strongly bullish** | Explosive relief rally. Short-covering + cash reallocation. F&G 22→35-45. VIX compressing toward 20. Be positioned, ride the wave. |
+| **Short-term (1-4 weeks)** | **Moderately bullish** | Bifurcates on deal progress (60% positive). "Wall of worry" climb if negotiations advance. Trim into strength approaching ATH. |
+| **Medium-term (1-3 months)** | **Conditionally bullish (45%)** | Durable deal → 15-25% forward returns from fear depths, new ATHs. Ceasefire collapse → violent re-pricing. The inflation data lag (May-June CPI) creates a temporary headwind regardless. |
 
 ---
 
-**Bottom line:** The bull case exists but is thin. It's a geopolitical resolution trade riding 6 weeks of fear mean-reversion. 40% confidence because (a) the base case (ceasefire) is modestly favored by markets, (b) fear is extended and due for snap-back, and (c) price action already shows buyers accumulating. But 2 of 3 signal sources are dark, and the thesis can be invalidated within 24 hours by a single headline.
+## Asset-Specific Implications for Marvino's Portfolio
 
-*⚠️ Data quality note: This thesis was constructed with only 1 of 3 expected signal inputs (sentiment-risk only). Macro-fundamental and liquidity-flow signals were unavailable. Confidence would increase significantly with full signal coverage.*
+| Asset | Thesis | Action |
+|---|---|---|
+| **US Stocks** | Strong relief rally, 5.5% gap to ATH | Be positioned, trim on formal deal or ATH approach |
+| **Bitcoin/Crypto** | High-beta risk assets outperform in relief | Ride the beta, same timing caveat |
+| **Commodities** | Oil geopolitical premium being stripped | Reduce long energy; $80-85 possible on deal formalization |
+| **Bonds** | Relief rally supports duration; Fed cut path strengthening | Favor duration |
+| **BBCA/Indonesian Stocks** | EM benefits from USD weakening + risk-on flows | Positive backdrop, EM tailwind |
 
-*Bullish Forecaster (Apollo) — Tier-5 Agent — Macro Economy Analyst System*
+---
+
+**Bottom line:** The highest-conviction risk-on window this cycle has produced. The geopolitical risk that suppressed markets for 6+ weeks is being resolved, the underlying macro was solid all along, and all three signals agree directionally for the first time. The bull case is not speculative — it's the removal of a suppressant revealing what was already there. 65% confidence reflects the genuine improvement in data quality (3 signals vs. 1) and the material nature of the overnight developments. The remaining 35% uncertainty is the 2-week ceiling and the "sell the news" dynamics.
+
+*The fear regime is cracking. The next 5 days are the payoff for 6 weeks of patience.*
+
+*⚠️ Data quality: 3 of 3 signals available (regime + liquidity slightly stale at ~6h, sentiment fresh). Macro-fundamental pipeline (Tier-1/Tier-2) still not feeding. No PMI, M2, ISM, fund flows, or real-time VIX. Confidence would increase with full pipeline restoration.*
+
+*Bullish Forecaster (Apollo) 🐂 — Tier-5 Agent — Macro Economy Analyst System*

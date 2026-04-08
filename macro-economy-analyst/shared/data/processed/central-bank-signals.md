@@ -1,6 +1,6 @@
 # Central Bank Signals
 
-## Summary (2026-01-07 to 2026-04-07)
+## Summary (2026-01-08 to 2026-04-08)
 
 ### Overview
 
@@ -14,11 +14,11 @@
 | Speaker | Count |
 |---------|-------|
 | bowman | 5 |
-| barr | 4 |
+| barr | 3 |
 | unknown | 3 |
+| jefferson | 2 |
 | cook | 2 |
 | waller | 2 |
-| jefferson | 1 |
 | miran | 1 |
 | powell | 1 |
 
@@ -80,8 +80,8 @@
 
 | Stance | Count | Percentage |
 |--------|-------|------------|
-| Hawkish | 4 | 21.1% |
-| Dovish | 3 | 15.8% |
+| Hawkish | 3 | 15.8% |
+| Dovish | 4 | 21.1% |
 | Neutral/Balanced | 12 | 63.2% |
 
 **Assessment:** Overall: Mixed/Neutral
@@ -93,8 +93,8 @@
 | Speaker | Role | Tier | Communications | Avg Stance |
 |---------|------|------|----------------|------------|
 | Jerome H. Powell | Chair | Tier 1 | 1 | Balanced |
-| Michael S. Barr | Vice Chair for Supervision | Tier 2 | 4 | Dovish |
-| Philip N. Jefferson | Vice Chair | Tier 2 | 1 | Balanced |
+| Michael S. Barr | Vice Chair for Supervision | Tier 2 | 3 | Dovish |
+| Philip N. Jefferson | Vice Chair | Tier 2 | 2 | Dovish |
 | Michelle W. Bowman | Governor | Tier 3 | 5 | Balanced |
 | Lisa D. Cook | Governor | Tier 3 | 2 | Hawkish |
 | Christopher J. Waller | Governor | Tier 3 | 2 | Dovish |
@@ -106,6 +106,7 @@
 
 | Date | Speaker | Type | Stance | Key Themes | Link |
 |------|---------|------|--------|------------|------|
+| 2026-04-07 | Jefferson | 🎤 speech | Leaning Dovish | Inflation, Labor Market, Monetary Policy | [Full](https://www.federalreserve.gov/newsevents/speech/jefferson20260407a.htm) |
 | 2026-03-31 | Bowman | 🎤 speech | Neutral/Unclear | Inflation, Labor Market, Monetary Policy | [Full](https://www.federalreserve.gov/newsevents/speech/bowman20260331a.htm) |
 | 2026-03-31 | Barr | 🎤 speech | Leaning Dovish | Financial Stability, Regulation | [Full](https://www.federalreserve.gov/newsevents/speech/barr20260331a.htm) |
 | 2026-03-26 | Barr | 🎤 speech | Leaning Dovish | Inflation, Labor Market, Monetary Policy | [Full](https://www.federalreserve.gov/newsevents/speech/barr20260326a.htm) |
@@ -123,7 +124,6 @@
 | 2026-02-24 | Waller | 🎤 speech | Neutral/Unclear | Inflation, Monetary Policy, Financial Stability | [Full](https://www.federalreserve.gov/newsevents/speech/waller20260224a.htm) |
 | 2026-02-23 | Waller | 🎤 speech | Leaning Dovish | Inflation, Labor Market, Monetary Policy | [Full](https://www.federalreserve.gov/newsevents/speech/waller20260223a.htm) |
 | 2026-02-19 | Bowman | 🎤 speech | Neutral/Unclear | Economic Growth, Financial Stability, Regulation | [Full](https://www.federalreserve.gov/newsevents/speech/bowman20260219a.htm) |
-| 2026-02-17 | Barr | 🎤 speech | Leaning Hawkish | Inflation, Labor Market, Monetary Policy | [Full](https://www.federalreserve.gov/newsevents/speech/barr20260217a.htm) |
 | 2026-01-28 | FOMC | 📜 statement | Leaning Hawkish | Inflation, Labor Market, Monetary Policy | [Full](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm) |
 
 ---

@@ -1,83 +1,101 @@
 # Neutral Thesis
 
-**Date:** 2026-04-07
+**Date:** 2026-04-08
 **Forecaster:** Neutral Forecaster (Tier-5)
-**Confidence:** 20%
+**Confidence:** 55%
 
 ---
 
 ## Executive Summary
 
-The neutral base case is a contained de-escalation of the US-Iran standoff leading to a gradual normalization of sentiment and asset prices over 2-6 weeks — but confidence is low (20%) because the situation is dominated by a binary geopolitical event with an imminent deadline. With only 1 of 3 signal sources operational and no macro-fundamental or liquidity data, this thesis is constructed on fragile foundations. The base case exists, but it is event-dependent, not structurally grounded.
+The neutral base case is a fragile de-escalation trajectory: the US-Iran ceasefire holds through the 2-week window (April 21), markets normalize through a relief rally over the next 1-3 weeks, and negotiations extend into a durable framework with moderate probability (~45%). This is not a clean "peace dividend" scenario — it is a messy, time-bound ceasefire with active diplomatic engagement (10-point proposal, Islamabad talks April 11) that creates a narrow window of high-conviction risk-on positioning before structural questions resurface. Confidence has risen substantially from yesterday's 20% as all three signal sources now converge directionally, but the 2-week ceiling and gold's non-confirmation of normalization prevent higher conviction.
 
 ---
 
 ## Neutral Thesis
 
-**Base Case:** The US-Iran Strait of Hormuz deadline passes without full-scale military escalation (60-70% probability per market pricing). A ceasefire, extension, or face-saving diplomatic off-ramp is the most probable outcome. This triggers a relief rally (3-5% S&P) and gradual sentiment normalization from extreme fear (F&G 22.6) back toward neutral territory over 2-4 weeks. Oil prices stabilize below sustained $90+ levels, preventing an inflation resurgence. Markets resume a cautious risk-on posture, though structural damage from 6+ weeks of extreme fear means the recovery is gradual — buyers return on dips, but conviction is thin.
+**Base Case:** The ceasefire holds for at least 2 weeks (45-60% probability), allowing oil to settle below $90, VIX to compress below 20, and sentiment to normalize from extreme fear (F&G 22) toward neutral territory (40-55). Equities mount a relief rally toward ATHs, crypto benefits from risk-on flows and Fed dovish tailwinds, and credit continues tightening. The path is not linear — expect a 3-5% pullback on formal deal signing ("sell the news") and choppy price action around the Islamabad talks (April 11) and ceasefire deadline (April 21). Over 1-3 months, the most probable outcome is an extended negotiation that keeps markets range-bound with a positive bias rather than a full resolution or collapse.
 
-**Why this is the base case:** Geopolitical binary events most frequently resolve through de-escalation because the costs of escalation (Strait of Hormuz disruption, $150+ oil, global recession risk) create strong incentives on all sides to find an off-ramp. Market pricing at 60-70% ceasefire probability reflects rational assessment of asymmetric downside. The 4-day equity rally represents revealed preference that informed participants are positioning for this outcome.
+**Why this is the base case:** Three signals (regime, sentiment, liquidity) now converge on the same direction for the first time this cycle. The ceasefire is materially stronger than a simple deadline extension — Trump suspended attacks, Iran agreed to a 10-point proposal, Hormuz reopened, Israel agreed. Market pricing (Dow futures +967, oil -18%) reflects genuine repricing, not hope. Underlying macro fundamentals (GDP 2.3%, healthy labor, steepening yield curve, dovish Fed) provide a solid foundation once the geopolitical overlay lifts. This is the path of least surprise.
 
 ---
 
 ## Equilibrium Assessment
 
-The equilibrium sits at "messy de-escalation" — not a clean diplomatic resolution, but a cessation of immediate military threat. This is the path of least surprise because:
+The equilibrium sits at "fragile normalization with a countdown clock." The market is transitioning from crisis/stagflation to recovery, but the 2-week ceasefire creates a known expiration date that limits strategic conviction.
 
-1. **Mutual deterrence holds.** Both sides face catastrophic costs from escalation. Iran cannot sustain a prolonged closure of Hormuz; the US faces election-sensitive economic damage from oil spikes.
-2. **Market structure supports normalization.** Six weeks of extreme fear (F&G sub-25) is historically unusual and has built a wall of worry that typically resolves through mean reversion, not further deterioration.
-3. **Time is a forcing function.** The deadline creates urgency that favors action over stalemate — and the most available action is de-escalation, not escalation.
+**Where equilibrium is clearest:**
+1. **Oil settling into $85-95 range.** The $102 spike was geopolitical premium; the $93 level post-ceasefire reflects supply normalization. A $85-90 equilibrium is most probable if the ceasefire holds — low enough to remove inflation risk, high enough to reflect lingering geopolitical uncertainty.
+2. **VIX compressing toward 18-22.** The 20 threshold is critical (dealer delta flip), and the market is likely to cross it within days. Equilibrium is slightly elevated from pre-crisis levels (~13-15) because geopolitical uncertainty persists.
+3. **F&G normalizing to 35-50.** Extended fear regimes (6+ weeks) historically produce a 2-4 week normalization phase that overshoots to greed before settling. The equilibrium is neutral with a greed bias in weeks 2-3.
 
-However, the equilibrium is fragile. It rests on a single event resolution, not on underlying macro stability. This is short-term neutral positioning, not structural equilibrium.
+**Where equilibrium is fragile:**
+1. **Gold at $4,821 refusing to confirm.** All three asset specialists flag this. Gold rallied +6.5% WoW *despite* the ceasefire. This is the single most important cross-asset divergence — it suggests structural safe-haven demand (central bank buying, de-dollarization, fiscal concerns) that persists regardless of geopolitical resolution. A genuine normalization regime would see gold pulling back; it's not.
+2. **2-week deadline creates a known cliff edge.** Markets will begin pricing expiry risk starting ~April 15. The equilibrium shifts from "relief" to "anxiety" as the deadline approaches, creating a non-linear risk profile.
+3. **Missing US equities coverage.** No specialist is analyzing the largest asset class in Marvino's portfolio. The aggregate view is partial.
 
 ---
 
 ## Key Triggers
 
-**Could shift toward bullish (higher conviction neutral):**
-- Ceasefire confirmed before deadline → thesis confidence rises to 40-50%
-- Macro-fundamental data reveals stable growth/inflation → structural confidence returns
-- Liquidity signal shows accommodative flows → risk appetite normalization confirmed
+**Could shift toward higher conviction (65%+):**
+- Oil sustains below $90 for 5+ sessions → regime formally shifts to Recovery
+- Islamabad talks (April 11) produce concrete framework → ceasefire durability increases
+- VIX breaks below 20 → dealer delta flips positive, self-reinforcing rally tailwind
+- HY OAS tightens below 275bps → full credit recovery confirmed
+- Gold pulls back below $4,500 → normalization confirmed across all asset classes
 
 **Could shift toward bearish (neutral thesis invalidated):**
-- Military strikes on Iran or Hormuz closure → neutral case collapses; directional bear thesis with VIX >40
-- Oil sustains above $100 for 2+ weeks → inflationary second-order effects emerge
-- Relief rally sold into aggressively → sentiment remains stuck in fear despite de-escalation
+- Lebanon escalates independently (45-55% probability, excluded from ceasefire) → new fear cycle regardless of Iran status
+- Islamabad talks fail → 2-week window becomes countdown to collapse
+- Oil re-risks $100+ → inflation narrative resurfaces, Fed hold extended
+- Gold continues to $5,000+ → structural risk exceeds geopolitical risk
+- "Sell the news" pullback exceeds 5% → sentiment re-stalls in fear territory
 
 ---
 
 ## Counter-Arguments
 
-1. **The base case may be wrong because the aggregate signal is dangerously thin.** Only sentiment is operational. Regime is undetermined (0% confidence). Liquidity is missing. A neutral thesis built on 1 of 3 signals is inherently unreliable.
+1. **The ceasefire may not survive 2 weeks (30-40% probability).** If it collapses, the relief rally reversal would be more violent than the original sell-off because markets have now priced peace. S&P retests 6,000-6,200, oil to $115+, VIX above 40. This is not a tail risk — it is a substantial probability that the neutral thesis must absorb.
 
-2. **"Relief buying, not genuine risk appetite"** — the sentiment analyst's own assessment. The 4-day rally may be tactical positioning ahead of a known catalyst, not conviction in the de-escalation outcome. If so, the rally reverses on any negative headline.
+2. **Gold's non-confirmation is structurally significant.** If smart money (central banks, sovereign wealth funds) continues buying gold at ATH despite ceasefire progress, it signals that the geopolitical resolution is surface-level and deeper structural risks (fiscal deficits, de-dollarization, defense spending) remain unaddressed. The neutral thesis assumes normalization; gold suggests otherwise.
 
-3. **Extended fear duration (6+ weeks) can also signal deteriorating fundamentals, not just sentiment dislocation.** If the underlying macro is weakening (which we cannot assess due to missing data), the "wall of worry" thesis is a trap.
+3. **CPI data lag creates a false spring.** May-June CPI will reflect the $100+ oil spike period. Even with ceasefire, inflation data will surprise to the upside temporarily, creating a new fear cycle when markets least expect it. The neutral thesis's smooth normalization path may be interrupted by this data lag.
 
-4. **The 30-40% escalation probability is not negligible.** A near-coin-flip risk of catastrophic outcome makes "neutral" a dangerous label. The distribution is bimodal, not bell-shaped — there is little middle ground between relief rally and panic.
+4. **The Fed's dovish shift may be premature.** If ceasefire collapses or oil resurges, the Fed's dovish lean (4-3 dove majority) becomes a policy error. Duration positioning built on dovish expectations would face sharp reversal.
+
+5. **Missing data limits confidence ceiling.** No US equities analysis (Marvino's largest allocation), no macro-fundamental pipeline from Tiers 1-2, regime/liquidity signals 6 hours stale. The thesis is built on partial information.
 
 ---
 
 ## Confidence Assessment
 
-**Overall Confidence: 20% (Weak Neutral Case)**
+**Overall Confidence: 55% (Strong Neutral Case)**
 
 | Factor | Assessment |
 |--------|-----------|
-| Signal coverage | ⬜ Critical — only 1 of 3 signals operational |
-| Signal quality | 🟡 Moderate — sentiment signal is well-constructed but single-source |
-| Cross-signal consistency | ⬜ Cannot assess — insufficient data |
-| Data timeliness | 🟢 Good — signals are current (within hours) |
-| Event-dependency | 🔴 High — thesis hinges on single binary catalyst |
-| Distribution shape | 🟡 Bimodal — not a clean bell curve; neutral sits between two fat tails |
+| Signal coverage | 🟡 Improved — 3 of 3 signals now directionally aligned, but 2 are stale (~6h) |
+| Signal quality | 🟢 Good — sentiment is fresh and well-analyzed; asset specialists provide cross-asset depth |
+| Cross-signal consistency | 🟢 Good — all signals agree on near-term direction; divergence is on timing/medium-term |
+| Data timeliness | 🟡 Moderate — regime/liquidity pre-date overnight ceasefire; asset data is fresh |
+| Event-dependency | 🟡 Medium — shifted from single binary event to 2-week negotiation window |
+| Distribution shape | 🟡 Skewed positive — bimodal risk (deal vs. collapse) but with a meaningful middle path (extended negotiations) |
 
-**Signal quality note:** The sentiment-risk signal is well-analyzed with clear identification of internal divergences, contrarian setups, and risk probabilities. The weakness is not in the available signal but in its isolation. A 20% confidence reflects the gap between "this is the most probable single outcome" and "I have sufficient evidence to stand behind this as a thesis."
+**What changed from yesterday (20% → 55%):**
+- Ceasefire announcement shifted regime from Crisis to Transition/Inflection (58%)
+- All three signals now converge directionally (was 1 of 3)
+- Oil crash to $93 (-18%) confirms de-escalation credibility
+- Asset specialists provide cross-asset confirmation (crypto, FI, commodities all risk-on)
+- HY OAS tightening (305bps, -8bps) is real-time credit stress reversal
 
-**Confidence would rise to 50%+ if:** Macro-fundamental data becomes available showing stable regime + liquidity signal confirms accommodative conditions + geopolitical event resolves favorably.
-
-**Confidence would drop to 0% if:** Escalation occurs or new data reveals the underlying macro is deteriorating, invalidating the de-escalation assumption.
+**What caps confidence at 55%:**
+- Gold's non-confirmation of normalization is a serious structural warning
+- 2-week ceasefire deadline is a known cliff edge
+- Lebanon escalation is independent and high-probability (45-55%)
+- Missing US equities and macro-fundamental data
+- "Sell the news" risk on formal deal signing (40-50%)
 
 ---
 
 *Neutral Forecaster — Tier-5 Agent — Macro Economy Analyst System*
-*Next update: when new aggregate data arrives or post-deadline event resolution*
+*Next update: when new aggregate data arrives or post-Islamabad talks (April 11)*

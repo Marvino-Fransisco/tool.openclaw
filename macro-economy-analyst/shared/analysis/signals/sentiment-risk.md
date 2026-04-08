@@ -1,61 +1,65 @@
 # Sentiment Risk Analysis
 
-_Generated: 2026-04-07T03:18Z_
+_Generated: 2026-04-08T04:39Z_
 _Agent: sentiment-risk-analyst_
 _Tier: 3_
 
 ## Current Sentiment State
 
-**Dominant Mood:** Extreme Fear (CNN F&G: 22.6) with nascent tactical optimism on geopolitics
-**Conviction:** High — fear is deeply embedded across all sentiment sub-indicators
-**Sentiment Score:** 2.3 / 10 (1 = Extreme Fear, 5 = Neutral, 10 = Extreme Greed)
+**Dominant Mood:** Extreme Fear (CNN F&G: 22.1) with explosive relief building beneath the surface
+**Conviction:** High — fear remains embedded but the geopolitical catalyst is shifting violently
+**Sentiment Score:** 2.2 / 10 (1 = Extreme Fear, 5 = Neutral, 10 = Extreme Greed)
 
 ## Key Sentiment Drivers
 
-1. **US-Iran War & Strait of Hormuz Deadline (Trump: Tue 8PM ET):** The dominant fear driver. A major geopolitical conflict with energy supply implications. Markets rallied Mon (+0.44% S&P) on ceasefire chatter, but the binary nature of the deadline keeps fear elevated. Every headline swings sentiment violently.
-2. **Sustained Fear Regime (CNN F&G sub-25 for 6+ weeks):** The index bottomed at ~3 in early April 2026 and has only clawed back to 22.6. Previous close was 19.3. One-week-ago was 13.7. This is a market that has been living in fear for an extended period — emotional exhaustion is real but hasn't flipped to capitulation yet.
-3. **Equity Bounce on Ceasefire Hopes:** Four consecutive winning days for S&P 500 (as of Apr 5 close). Dow at 46,670. This reflects relief buying, not genuine risk appetite — a critical distinction.
+1. **Trump Suspends Iran Attacks for Two Weeks (THE event):** This is the dominant sentiment inflection point. Trump announced a suspension of bombing ahead of his 8PM ET deadline, citing a "10-point proposal" from Iran as a "workable basis." Dow futures exploded +967 points (+2.1%), S&P futures +2.1%, Nasdaq +2.3%. WTI crude crashed 18% to under $93. This is the sentiment snap-back the contrarian playbook predicted yesterday.
+
+2. **Strait of Hormuz Reopening:** Iran's Supreme National Security Council agreed to reopen the waterway for two weeks conditional on the ceasefire holding. Israel also agreed. This removes the immediate tail risk that had been compressing valuations for 5 weeks. The energy supply shock narrative is collapsing in real-time.
+
+3. **"Two-Week" Familiarity Skepticism:** As Freedom Capital's Jay Woods noted, the market has "gotten much better at sniffing out" Trump's moves. The concern is whether this two-week window leads to resolution or just another escalation cycle. This is preventing the sentiment index from snapping higher despite massive price action.
 
 ## Macro-Sentiment Correlation Map
 
-- **Geopolitical risk premium (Iran conflict):** Reinforcing extreme fear. Oil supply disruption risk is the transmission mechanism to broader sentiment.
-- **Equity market 4-day rally:** Contradicting the extreme fear reading — price action says "hope," surveys/volatility say "fear." This divergence is significant.
-- **Trump's Hormuz deadline (Apr 7):** Acting as a binary sentiment catalyst. Resolution → relief rally/mean reversion. Escalation → panic selling and potential flash crash dynamics.
-- **Ceasefire negotiations (45-day proposal, Pakistan-brokered):** Providing a bid under equities despite the fear index. Market pricing ~60-70% chance of deal based on the 4-day rally.
+- **Geopolitical de-escalation (Iran ceasefire):** Reinforcing a rapid shift from fear toward cautious optimism. Oil -18% is the clearest real-time sentiment transmission.
+- **Dow futures +2.1% overnight:** Massive risk-on signal, but CNN F&G still at 22.1 — the survey hasn't caught up to the price action. This lag is the opportunity.
+- **S&P still 5.5% off ATH:** The market hasn't fully recovered even with the ceasefire. This means there's room to run if the deal holds — the gap to all-time highs represents unexpressed optimism.
+- **Previous near-correction (March, ~10% drawdown):** The memory of that sell-off is keeping participants cautious despite the relief. Recency bias is still anchoring sentiment to the downside.
 
 ## Divergences
 
-- **Fear index vs. price action:** CNN F&G at 22.6 (extreme fear) but S&P has rallied 4 straight days. The crowd is buying despite feeling afraid — this is revealed preference for risk, not stated preference. Markets are pricing in de-escalation that the sentiment survey hasn't caught up to.
-- **Safe-haven flows vs. equity strength:** If bonds and gold are also rallying alongside equities, that confirms broad risk reduction. If only equities are up, it's a fragile, hope-driven bounce. (Data gap — need to verify gold/bond concurrent movement.)
+- **Fear index vs. futures/price action (widening):** CNN F&G at 22.1 (extreme fear) but Dow futures +967 points. This is the largest divergence in this cycle. The survey data lags the overnight geopolitical resolution by 24-48 hours. Expect a violent catch-up in the next F&G reading.
+- **Regular session vs. after-hours:** Tuesday's regular session was muted (S&P +0.08%, Dow -85 pts) but futures exploded post-close. The crowd that sold into Tuesday's session is now massively wrong-footed.
+- **Oil crash (-18%) vs. equity rally (+2.1%):** Both are moving in the "good news" direction simultaneously. This is genuine risk appetite returning, not just equity-specific hope.
 
 ## Forward Outlook
 
 ### Near-Term (1-5 days)
-**Critical binary event: Trump's Tuesday deadline.** If a ceasefire or agreement is reached (probabilistically favored given active negotiations), expect a sharp sentiment snap from extreme fear toward neutral/greed within 48 hours. The F&G index could swing 20+ points. If the deadline passes without resolution and military action follows, expect VIX to spike above 40 and F&G to revisit single digits. Positioning is extremely asymmetric around this event.
+**Explosive relief rally.** The 2-week ceasefire removes the binary tail risk that has dominated sentiment for 5 weeks. Expect S&P to retrace toward its ATH gap (5.5% below) within days. CNN F&G should swing from 22 to 35-45 within 2-3 sessions. Short-covering and cash reallocation will drive momentum. However, the "two-week" framing creates a new countdown — sentiment will be sensitive to any deal progress headlines.
 
 ### Short-Term (1-4 weeks)
-Post-deadline, sentiment normalizes. Even with a ceasefire, the structural damage to risk appetite won't heal instantly — the F&G was at 5-10 for weeks, and trauma lingers. Expect a grinding recovery from fear toward neutral over 2-4 weeks if geopolitics stabilize. If ceasefire fails, we're in uncharted territory with sustained extreme fear and potential recession signals from elevated oil.
+Two scenarios bifurcate:
+- **Deal progresses (60%):** Sentiment continues recovering toward neutral/optimism. The F&G index reaches 40-55. Equities reclaim ATHs. The "wall of worry" climb begins.
+- **Negotiations stall (40%):** The two-week clock becomes the new fear anchor. Every day without progress chips at sentiment. F&G could oscillate 25-35 range. Oil re-risks toward $100+.
 
 ### Medium-Term (1-3 months)
-The dominant factor will be whether the geopolitical resolution holds and what the economic damage from the conflict period looks like. Inflation (oil-driven) could resurface as a concern, creating a new fear axis. However, the depth and duration of the current fear regime (6+ weeks at sub-25) historically sets up for a mean-reversion trade. Markets tend to overshoot in both directions — the snap back from extreme fear can be violent.
+If a durable deal is reached, the 5-week fear regime becomes a buying opportunity in hindsight. The depth of fear (index bottomed at 2.9 one year ago reading, spent weeks below 15) historically correlates with 15-25% forward returns over 3-6 months. The secondary concern becomes oil-driven inflation from the supply disruption period — CPI data in coming months will reflect the $100+ oil spike and could create a new sentiment headwind even as geopolitics improves.
 
 ## Risk Scenarios
 
-- **Bull Case:** Ceasefire signed Tuesday → Hormuz reopened → oil crashes → F&G surges to 40-50 within a week → strong relief rally across equities, crypto, and risk assets. Gold retreats.
-- **Bear Case:** Deadline passes, military strikes begin → oil spikes above $120 → F&G revisits sub-10 → VIX above 50 → broad risk-off with forced selling from systematic strategies. Potential recession acceleration.
-- **Tail Risk:** Escalation draws in other regional powers (Saudi, Israel direct involvement) → energy crisis 2.0 → global recession narrative takes hold → sentiment remains in extreme fear for 3+ months.
+- **Bull Case:** Two-week ceasefire becomes permanent deal → F&G surges to 50+ → S&P reclaims ATHs and pushes to new highs → oil settles $75-85 → crypto and emerging markets rally hard as risk appetite fully returns.
+- **Bear Case:** Negotiations collapse in week 2 → Trump re-issues military threats → oil re-spikes above $100 → F&G crashes back to sub-15 → the relief rally becomes a bull trap, punishing late buyers.
+- **Tail Risk:** Israel violates ceasefire terms, or a rogue Iranian military action occurs → immediate breakdown of talks → military escalation resumes → worst of both worlds: markets already priced in peace, creating a more violent downside than the original sell-off.
 
 ## Contrarian Watch
 
-- **The crowd is massively short risk but price action suggests bottom-fishing.** The 4-day equity rally on geopolitical hope while the fear index remains below 25 is a classic "wall of worry" setup. If the ceasefire materializes, the number of people who need to cover shorts and reallocate from cash will create a powerful buying vacuum.
-- **AAII/BofA fund flow data would be critical here** — if fund flows show record outflows from equities into money markets, the contrarian case for a sharp snap-back is strong.
-- **Be cautious of the "relief rally trap"** — initial geopolitical resolution often leads to a 3-5% rally that gets sold into as participants use the liquidity to exit, rather than re-enter.
+- **The crowd is still terrified (F&G 22) but price says otherwise.** This is the classic late-stage fear setup. The biggest sentiment mistake participants make is being afraid to buy when the news is still scary but the price is already recovering. The crowd will chase this rally within 3-5 days, pushing sentiment from extreme fear to greed too quickly.
+- **"Sell the news" risk on any formal deal signing:** The relief rally front-runs the actual agreement. Once it's signed, the catalyst is consumed and profit-taking may follow.
+- **Oil at $93 after -18% crash:** If you're Marvino with commodity exposure, note that the geopolitical risk premium is being rapidly stripped from oil. This may not be the floor — a full resolution could push WTI toward $80-85.
 
 ## Data Gaps
 
-- **VIX level not captured** — Yahoo Finance API rate-limited. Critical for volatility regime assessment.
-- **No macro-fundamental data available** — `/shared/analysis/macro-fundamentals/` is empty. Tier-1/Tier-2 analyst pipelines may not be running or feeding data.
-- **Put/call ratios, CBOE put/call data missing** — needed for positioning analysis.
-- **Gold, Treasury, and Bitcoin concurrent price action** — needed to assess cross-asset sentiment coherence.
-- **Fund flow data (EPFR, Lipper) missing** — critical for crowding/positioning analysis.
+- **No macro-fundamental data available** — `/shared/analysis/macro-fundamentals/` remains empty. Tier-1/Tier-2 analyst pipelines are not feeding data.
+- **VIX level not captured** — needed to confirm volatility compression.
+- **Put/call ratios, fund flow data missing** — positioning analysis limited.
+- **Gold and Treasury price action missing** — needed to confirm cross-asset risk-on rotation.
 - **Brave Search API not configured** — limits real-time research capability.
